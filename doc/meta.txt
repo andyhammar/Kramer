@@ -1,0 +1,9 @@
+ekot: programid 83
+
+http://sverigesradio.se/api/documentation/v2/metoder/avsnitt.html
+
+
+ex
+http://api.sr.se/api/v2/episodes/index?programid=83&fromdate=2013-03-01&todate=2013-03-06&urltemplateid=3&audioquality=hi
+
+http://sverigesradio.se/topsy/ljudfil/4456757-hi.m4a
