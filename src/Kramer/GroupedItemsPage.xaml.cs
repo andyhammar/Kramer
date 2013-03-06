@@ -4,7 +4,6 @@ using Kramer.Data;
 
 using System;
 using System.Collections.Generic;
-using Kramer.ViewModels;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 

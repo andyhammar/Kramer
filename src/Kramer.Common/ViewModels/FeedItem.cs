@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Kramer.ViewModels
+namespace Kramer.Common.ViewModels
 {
     public class FeedItem
     {
