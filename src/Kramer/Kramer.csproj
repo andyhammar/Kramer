@@ -101,6 +101,10 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <ProjectReference Include="..\Kramer.Common\Kramer.Common.csproj">
+      <Project>{4D646ECD-8AF3-426E-B0DC-0786F0E40754}</Project>
+      <Name>Kramer.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -117,14 +121,11 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataModel\SampleDataSource.cs" />
-    <Compile Include="Common\BindableBase.cs" />
     <Compile Include="Common\BooleanToVisibilityConverter.cs" />
     <Compile Include="Common\BooleanNegationConverter.cs" />
     <Compile Include="Common\LayoutAwarePage.cs" />
     <Compile Include="Common\RichTextColumns.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
-    <Compile Include="ViewModels\FeedItem.cs" />
-    <Compile Include="ViewModels\MainVm.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">

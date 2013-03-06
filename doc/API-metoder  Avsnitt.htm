@@ -1,0 +1,167 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>API-metoder: Avsnitt</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <link rel="stylesheet" href="../css/main.css" type="text/css" media="all"/>
+        <script type="text/javascript" language="javascript" src="../script/hostfix.js"></script>
+	</head>
+    <body onload="fixHostForLinks();">
+        
+        <div id="content">
+            <div id="header">
+                <img alt="Sveriges Radio logotyp" src="../img/Sverigesradio_srgb.gif"/>
+                <a href="../index.html" title="Tillbaka till startsidan">Tillbaka till startsidan</a>
+            </div>
+            <div id="main">
+                <h1>API-metoder: Avsnitt</h1>
+                <p>Nedan visas de metoder för att lista avsnitt (episoder).</p>
+		
+                <h2>Lista avsnitt</h2>
+                <p>Listar avsnitt för angivet program. Till metoden skickas önskat <em>programid</em> samt eventuellt ett datuminterval 
+                    och ljudlänksparametrar. För datum intervallsparametrarna (<em>fromDate</em> och <em>toDate</em>) gäller följande:</p>
+                <ul>
+                    <li>Om ingen datumparameter är satt listas alla avsnitt för en enhet</li>
+                    <li>Om <em>fromDate</em> är satt listas alla avsnitt från kl 00:00 detta datum</li>
+                    <li>Om <em>toDate</em> är satt listas avsnitt till kl 00:00 detta datum</li>
+                </ul>
+                <strong>URL:</strong>
+                <p>http://api.sr.se/api/v2/episodes/index </p>
+                <strong>Parametrar:</strong>
+                <ul>
+                    <li><em>programid</em> (obligatorisk) - anger id för det program man vill hämta avsnitt från</li>
+                    <li><em>fromdate</em> (valfri) - anger början av det intervall som man vill hämta avsnitt från</li>
+                    <li><em>todate</em> (valfri) - anger slutet av det intervall som man vill hämta avsnitt från</li>
+                </ul>
+                 <p>Se avsnittet <a href="../generella_parametrar.html">generella parametrar</a> för fler parametrar.</p>
+
+                <strong>Exempelanrop: </strong>
+                <ul>
+                    <li><a href="http://api.sr.se/api/v2/episodes/index?programid=3718&fromdate=2012-08-01&todate=2012-08-31&urltemplateid=3&audioquality=hi">http://api.sr.se/api/v2/episodes/index?programid=3718&fromdate=2012-08-01&todate=2012-08-31&urltemplateid=3&audioquality=hi</a></li>
+                </ul>
+                <strong>Fält som kan filtreras:</strong>
+                <p>Inga</p>
+                <p>Se avsnittet om <a href="../generella_parametrar.html#filter">filter</a> för mer information.</p>
+                <strong>Svar:</strong>
+                <p>I svaret ingår en lista av avsnitt, <em>episode</em>. Varje <em>episode</em> innehåller:</p>
+                <ul>
+                    <li><em>id</em> - avsnittets unika id</li>
+                    <li><em>title</em> - avsnittets namn</li>
+                    <li><em>description</em> - kort beskrivning av avsnittet</li>
+                    <li><em>publishdateutc</em> - när avsnittet sändes i UTC-format</li>
+                    <li><em>imageurl</em> - avsnittets bild</li>
+                    <li><em>broadcast</em> - sändning (med musik)</li>
+                    <li><em>listenpodfile </em> - podfil för uppspelning (utan musik). För beskrivning av poddfilens fält, se <a href="./program.html#hamtapoddfil">Hämta poddfil</a></li>
+                    <li><em>downloadpodfile</em> - podfil för nerladdning (utan musik). För beskrivning av poddfilens fält, se <a href="./program.html#hamtapoddfil">Hämta poddfil</a></li>
+                </ul>
+                <strong>Exempelsvar (avkortat):</strong>
+                <code>
+                    <pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;sr&gt;
+     &lt;copyright&gt;Copyright Sveriges Radio 2012. All rights reserved.&lt;/copyright&gt;
+     &lt;pagination&gt;
+          &lt;page&gt;1&lt;/page&gt;
+          &lt;size&gt;10&lt;/size&gt;
+          &lt;totalhits&gt;8&lt;/totalhits&gt;
+          &lt;totalpages&gt;1&lt;/totalpages&gt;
+     &lt;/pagination&gt;
+     &lt;episodes&gt;
+          &lt;episode id=&quot;5084&quot;&gt;
+              &lt;title&gt;Haijbyaff&#228;ren&lt;/title&gt;
+              &lt;description&gt;Programmet som blickar bak&#229;t, gr&#228;ver i arkiven och pratar med dom som var med n&#228;r det 
+                h&#228;nde, d&#228;r det h&#228;nde. Det &#228;r h&#228;r du f&#229;r svar p&#229; varf&#246;r saker ser ut och &#228;r som de &#228;r.&lt;/description&gt;
+              &lt;imageurl&gt;
+                http://sverigesradio.se/diverse/appdata/isidor/images/news_images/2519/2472663_512_512.jpg
+              &lt;/imageurl&gt;
+              &lt;program id=&quot;2519&quot; name=&quot;P3 Dokument&#228;r&quot; /&gt;
+              &lt;publishdateutc&gt;2012-09-15 18:03:00Z&lt;/publishdateutc&gt;
+              &lt;broadcast&gt;
+                   &lt;playlist id=&quot;4148031&quot;&gt;
+                        &lt;url&gt;http://api.sr.se/api/radio/radio.aspx?type=broadcast&id=4148031&codingformat=.m4a&
+                          metafile=asx&lt;/url&gt;
+                        &lt;statkey&gt;webbradio/start/lyssnaigen/164_P3-2519_P3 Dokument&#228;r/
+                          4148031_P3 Dokument&#228;r : Haijbyaff&#228;ren 20120915 20:03&lt;/statkey&gt;
+                        &lt;duration&gt;3420&lt;/duration&gt;
+                        &lt;publishdateutc&gt;2012-09-15 18:03:00Z&lt;/publishdateutc&gt;
+                   &lt;/playlist&gt;
+                   &lt;broadcastfiles&gt;
+                        &lt;broadcastfile id=&quot;4148031&quot;&gt;
+                             &lt;url&gt;http://sverigesradio.se/topsy/ljudfil/4148031.m4a&lt;/url&gt;
+                             &lt;statkey&gt;webbradio/start/lyssnaigen/164_P3-2519_P3 Dokument&#228;r/
+                               4148031_P3 Dokument&#228;r : Haijbyaff&#228;ren 20120915 20:03&lt;/statkey&gt;
+                             &lt;duration&gt;3420&lt;/duration&gt;
+                             &lt;publishdateutc&gt;2012-09-15 18:03:00Z&lt;/publishdateutc&gt;
+                        &lt;/broadcastfile&gt;
+                        &lt;broadcastfile id=&quot;4148049&quot;&gt;
+                             &lt;url&gt;http://sverigesradio.se/topsy/ljudfil/4148049.m4a&lt;/url&gt;
+                             &lt;statkey&gt;webbradio/start/lyssnaigen/164_P3-2519_P3 Dokument&#228;r/
+                               4148049_P3 Dokument&#228;r : Haijbyaff&#228;ren 20120915 21:03&lt;/statkey&gt;
+                             &lt;duration&gt;3420&lt;/duration&gt;
+                             &lt;publishdateutc&gt;2012-09-15 19:03:00Z&lt;/publishdateutc&gt;
+                        &lt;/broadcastfile&gt;
+                   &lt;/broadcastfiles&gt;
+              &lt;/broadcast&gt;
+         &lt;/episode&gt;
+	...
+  &lt;/episodes&gt;
+&lt;/sr&gt;</pre>
+                </code>
+                <h2>Visa avsnitt</h2>
+                <p>Returnerar angivet avsnitt. Till metoden skickas önskat <em>id</em>.</p>
+                <strong>URL:</strong>
+                <p>http://api.sr.se/api/v2/episodes/get?id={id}</p>
+                <strong>Parametrar:</strong>
+                <ul>
+                    <li><em>id</em> (obligatorisk) - anger id för det avsnitt som man vill hämta</li>
+                </ul>
+                <p>Se avsnittet <i>Ljud</i> <a href="../generella_parametrar.html">generella parametrar</a> för inställningar för ljud.</p>
+                <strong>Exempelanrop: </strong>
+                <ul>
+                    <li><a href="http://api.sr.se/api/v2/episodes/get?id=3718">http://api.sr.se/api/v2/episodes/get?id=3718</a></li>
+                </ul>
+                <strong>Svar:</strong>
+                <p>Svaret består av ett avsnitt, <em>episode</em>. Se ovanstående funktion, för beskrivning</p>
+                <strong>Exempelsvar</strong>
+                <code>
+                    
+                    <pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;sr&gt;
+  &lt;copyright&gt;Copyright Sveriges Radio 2012. All rights reserved.&lt;/copyright&gt;
+  &lt;episode id=&quot;3718&quot;&gt;
+    &lt;title&gt;Nyheter P4 J&#228;mtland&lt;/title&gt;
+    &lt;description&gt;I P4 J&#228;mtland h&#246;r du lokala nyheter, lokala aktualiteter, lokala v&#228;derprognoser, lokal sport och 
+      lokal kultur. &lt;/description&gt;
+    &lt;imageurl&gt;http://sverigesradio.se/diverse/appdata/isidor/images/news_images/78/2276660_512_512.jpg&lt;/imageurl&gt;
+    &lt;program id=&quot;78&quot; name=&quot;Nyheter P4 J&#228;mtland&quot; /&gt;
+    &lt;publishdateutc&gt;2012-09-11 10:30:00Z&lt;/publishdateutc&gt;
+    &lt;broadcast&gt;
+      &lt;playlist id=&quot;4139366&quot;&gt;
+        &lt;url&gt;http://api.sr.se/api/radio/radio.aspx?type=broadcast&id=4139366&codingformat=.m4a&metafile=asx&lt;/url&gt;
+        &lt;statkey&gt;webbradio/start/lyssnaigen/200_J&#228;mtland-78_Nyheter P4 J&#228;mtland/
+          4139366_Nyheter P4 J&#228;mtland 20120911 12:30&lt;/statkey&gt;
+        &lt;duration&gt;120&lt;/duration&gt;
+        &lt;publishdateutc&gt;2012-09-11 10:30:00Z&lt;/publishdateutc&gt;
+      &lt;/playlist&gt;
+      &lt;broadcastfiles&gt;
+        &lt;broadcastfile id=&quot;4139366&quot;&gt;
+          &lt;url&gt;http://sverigesradio.se/topsy/ljudfil/4139366.m4a&lt;/url&gt;
+          &lt;statkey&gt;webbradio/start/lyssnaigen/200_J&#228;mtland-78_Nyheter P4 J&#228;mtland/
+            4139366_Nyheter P4 J&#228;mtland 20120911 12:30&lt;/statkey&gt;
+          &lt;duration&gt;120&lt;/duration&gt;
+          &lt;publishdateutc&gt;2012-09-11 10:30:00Z&lt;/publishdateutc&gt;
+        &lt;/broadcastfile&gt;
+      &lt;/broadcastfiles&gt;
+    &lt;/broadcast&gt;
+  &lt;/episode&gt;
+&lt;/sr&gt;
+                    </pre>
+                </code>
+
+            </div>
+            <div id="footer">
+                <p>© Copyright Sveriges Radio 2012 | Ansvarig utgivare: Lotta Kjellin | Besöksadress (sthlm) för Sveriges Radio AB - Oxenstiernsgatan 20 - 105 10 Stockholm - växel: 08-784 50 00</p>
+            </div>
+        </div>
+    </body>
+</html>
+

@@ -1,18 +1,12 @@
-﻿using Kramer.Data;
+﻿using System.Diagnostics;
+using Kramer.Common.ViewModels;
+using Kramer.Data;
 
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using Kramer.ViewModels;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
 // The Grouped Items Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234231
 
@@ -37,11 +31,14 @@ namespace Kramer
         /// </param>
         /// <param name="pageState">A dictionary of state preserved by this page during an earlier
         /// session.  This will be null the first time a page is visited.</param>
-        protected override void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
+        protected override async void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
             // TODO: Create an appropriate data model for your problem domain to replace the sample data
             var sampleDataGroups = SampleDataSource.GetGroups((String)navigationParameter);
             this.DefaultViewModel["Groups"] = sampleDataGroups;
+
+            var vm = new MainVm();
+            await vm.Init();
         }
 
         /// <summary>
@@ -71,6 +68,11 @@ namespace Kramer
             // by passing required information as a navigation parameter
             var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
             this.Frame.Navigate(typeof(ItemDetailPage), itemId);
+        }
+
+        private void MediaElement_OnCurrentStateChanged(object sender, RoutedEventArgs e)
+        {
+            Debug.WriteLine(string.Format("status: {0}", mediaElement.CurrentState));
         }
     }
 }

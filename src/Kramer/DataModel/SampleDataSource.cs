@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using Kramer.Common.ViewModels;
 using Windows.ApplicationModel.Resources.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
@@ -26,7 +27,7 @@ namespace Kramer.Data
     /// defines properties common to both.
     /// </summary>
     [Windows.Foundation.Metadata.WebHostHidden]
-    public abstract class SampleDataCommon : Kramer.Common.BindableBase
+    public abstract class SampleDataCommon : BindableBase
     {
         private static Uri _baseUri = new Uri("ms-appx:///");
 

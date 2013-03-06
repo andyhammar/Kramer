@@ -36,6 +36,15 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+        <MediaElement 
+                x:Name="mediaElement"
+        AudioCategory="BackgroundCapableMedia"
+            Volume="1"
+            Source="http://sverigesradio.se/topsy/ljudfil/4456757-hi.m4a"
+            AutoPlay="True"
+            CurrentStateChanged="MediaElement_OnCurrentStateChanged"
+        />
+
         <!-- Horizontal scrolling grid used in most view states -->
         <GridView
             x:Name="itemGridView"

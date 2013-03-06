@@ -1,14 +1,9 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using Windows.UI.Xaml.Data;
 
-namespace Kramer.Common
+namespace Kramer.Common.ViewModels
 {
-    /// <summary>
-    /// Implementation of <see cref="INotifyPropertyChanged"/> to simplify models.
-    /// </summary>
-    [Windows.Foundation.Metadata.WebHostHidden]
     public abstract class BindableBase : INotifyPropertyChanged
     {
         /// <summary>
