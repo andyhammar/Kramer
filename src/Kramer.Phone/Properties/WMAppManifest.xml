@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
   <App xmlns="" ProductID="{006002a9-6bcb-43d6-8842-829eef8bd3fa}" Title="Ekot" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Andreas Hammar" Description="Lyssna på Ekot i efterhand." Publisher="Andreas Hammar">
-    <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
+    <IconPath IsRelative="true" IsResource="false">Assets\sr-tile-99.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_GAMERSERVICES" />
       <Capability Name="ID_CAP_IDENTITY_DEVICE" />
@@ -27,9 +27,10 @@
     <Tokens>
       <PrimaryToken TokenID="Kramer.PhoneToken" TaskName="_default">
         <TemplateType5>
-          <BackgroundImageURI IsRelative="true" IsResource="false">Background.png</BackgroundImageURI>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\sr-tile-173.png</BackgroundImageURI>
           <Count>0</Count>
-          <Title>Kramer.Phone</Title>
+          <Title>
+          </Title>
         </TemplateType5>
       </PrimaryToken>
     </Tokens>
