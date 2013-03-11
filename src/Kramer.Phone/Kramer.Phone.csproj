@@ -121,6 +121,16 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kramer.AudioAgent\Kramer.AudioAgent.csproj">
+      <Project>{ACC3A312-D787-4A8B-9ADD-01684005925E}</Project>
+      <Name>Kramer.AudioAgent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kramer.Common\Kramer.Common.csproj">
+      <Project>{4D646ECD-8AF3-426E-B0DC-0786F0E40754}</Project>
+      <Name>Kramer.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

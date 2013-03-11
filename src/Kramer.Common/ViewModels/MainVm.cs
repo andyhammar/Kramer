@@ -43,7 +43,7 @@ namespace Kramer.Common.ViewModels
             await GetFeedAsync(new Uri(url, UriKind.Absolute));
         }
 
-        public ObservableCollection<FeedItem> Items { get; set; }
+        public IEnumerable<FeedItem> Items { get; set; }
 
         private async Task GetFeedAsync(Uri uri)
         {
@@ -51,7 +51,7 @@ namespace Kramer.Common.ViewModels
             //request.Method = "GET";
             WebResponse response = await Task.Factory.FromAsync<WebResponse>(request.BeginGetResponse, request.EndGetResponse, null);
 
-            var rootObject = DeserializeResponse(response);
+            var rootObject = await DeserializeResponse(response);
 
             PopulateItems(rootObject);
             //var iar = request.BeginGetResponse(new AsyncCallback(Callback), request);
@@ -106,7 +106,9 @@ namespace Kramer.Common.ViewModels
         private void PopulateItems(RootObject root)
         {
             var feedItems = root.episodes.Select(CreateItem);
-            Items = new ObservableCollection<FeedItem>(feedItems);
+            _viewDispatcher.RunAsync(() =>
+                                     Items = new ObservableCollection<FeedItem>(feedItems));
+
         }
 
         private FeedItem CreateItem(Episode episode)
@@ -128,12 +130,12 @@ namespace Kramer.Common.ViewModels
         //    DeserializeResponse(response);
         //}
 
-        private static RootObject DeserializeResponse(WebResponse response)
+        private async Task<RootObject> DeserializeResponse(WebResponse response)
         {
             string result;
             using (var reader = new StreamReader(response.GetResponseStream()))
             {
-                result = reader.ReadToEnd();
+                result = await reader.ReadToEndAsync();
             }
             var deserialized = JsonConvert.DeserializeObject<RootObject>(result);
             return deserialized;

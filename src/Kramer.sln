@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E9E9AA
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kramer.AudioAgent", "Kramer.AudioAgent\Kramer.AudioAgent.csproj", "{ACC3A312-D787-4A8B-9ADD-01684005925E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,16 @@ Global
 		{006002A9-6BCB-43D6-8842-829EEF8BD3FA}.Release|ARM.ActiveCfg = Release|Any CPU
 		{006002A9-6BCB-43D6-8842-829EEF8BD3FA}.Release|x64.ActiveCfg = Release|Any CPU
 		{006002A9-6BCB-43D6-8842-829EEF8BD3FA}.Release|x86.ActiveCfg = Release|Any CPU
+		{ACC3A312-D787-4A8B-9ADD-01684005925E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC3A312-D787-4A8B-9ADD-01684005925E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC3A312-D787-4A8B-9ADD-01684005925E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{ACC3A312-D787-4A8B-9ADD-01684005925E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ACC3A312-D787-4A8B-9ADD-01684005925E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ACC3A312-D787-4A8B-9ADD-01684005925E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC3A312-D787-4A8B-9ADD-01684005925E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC3A312-D787-4A8B-9ADD-01684005925E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{ACC3A312-D787-4A8B-9ADD-01684005925E}.Release|x64.ActiveCfg = Release|Any CPU
+		{ACC3A312-D787-4A8B-9ADD-01684005925E}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
