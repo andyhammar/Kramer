@@ -21,6 +21,7 @@ namespace Kramer.Phone
             this.Loaded += MainPage_Loaded;
             _vm = new MainVm(new PhoneViewDispatcher());
             _vm.PropertyChanged += _vm_PropertyChanged;
+            DataContext = _vm;
         }
 
         void _vm_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
@@ -52,6 +53,7 @@ namespace Kramer.Phone
 			BackgroundAudioPlayer.Instance.Track = new AudioTrack(
                 new Uri(feedItem.AudioUri, UriKind.Absolute), feedItem.Title, "ekot", "nyheter",
                 new Uri("http://sverigesradio.se/img/channellogos/srlogga.png", UriKind.Absolute));
+            BackgroundAudioPlayer.Instance.Play();
 
             MainListBox.SelectedIndex = -1;
         }
