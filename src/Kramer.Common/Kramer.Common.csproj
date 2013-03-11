@@ -46,6 +46,7 @@
     <Compile Include="TaskExtensions.cs" />
     <Compile Include="ViewModels\BindableBase.cs" />
     <Compile Include="Extensions\Extensions.cs" />
+    <Compile Include="ViewModels\BusyMode.cs" />
     <Compile Include="ViewModels\FeedItem.cs" />
     <Compile Include="ViewModels\IViewDispatcher.cs" />
     <Compile Include="ViewModels\MainVm.cs" />

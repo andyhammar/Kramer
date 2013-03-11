@@ -35,6 +35,8 @@ namespace Kramer.Common.ViewModels
                             Title = "21:00"
                         }
                 });
+            StatusText = "playing...";
+            IsBusy = true;
         }
 #endif
 
@@ -56,6 +58,10 @@ namespace Kramer.Common.ViewModels
         }
 
         public IEnumerable<FeedItem> Items { get; set; }
+
+        public bool IsBusy { get; set; }
+        
+        public string StatusText { get; set; }
 
         private async Task GetFeedAsync(Uri uri)
         {
@@ -171,5 +177,23 @@ namespace Kramer.Common.ViewModels
         //    var dlg = new MessageDialog(message);
         //    dlg.ShowAsync();
         //}
+        public void ClearBusy()
+        {
+            StatusText = null;
+            IsBusy = false;
+        }
+
+        public void SetBusy(BusyMode busyMode)
+        {
+            IsBusy = true;
+            switch (busyMode)
+            {
+                case BusyMode.StartingPlay:
+                    StatusText = "Startar spelning...";
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException("busyMode");
+            }
+        }
     }
 }
