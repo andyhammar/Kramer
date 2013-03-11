@@ -16,8 +16,7 @@ namespace Kramer.Common.Extensions
 
         public static string ToMinSecString(this int durationInSecs)
         {
-            return string.Format("{0} min", 
-                TimeSpan.FromSeconds(durationInSecs).ToString(@"mm\:ss"));
+            return TimeSpan.FromSeconds(durationInSecs).ToString(@"mm\:ss");
         }
     }
 }

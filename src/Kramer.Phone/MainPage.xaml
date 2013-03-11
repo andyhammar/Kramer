@@ -68,15 +68,26 @@
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
+        <Border BorderBrush="Black" Grid.RowSpan="2" Background="{StaticResource PhoneAccentBrush}" Height="532" Opacity="0.16" HorizontalAlignment="Center" Width="960" VerticalAlignment="Bottom">
+        	<Border.OpacityMask>
+        		<ImageBrush Stretch="Uniform" ImageSource="Assets/sr-transparent-480.png"/>
+        	</Border.OpacityMask>
+        </Border>
+
+        <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <Border BorderBrush="Black" Height="59" Background="{StaticResource PhoneAccentBrush}" Margin="12,0,120,0">
+            	<Border.OpacityMask>
+            		<ImageBrush Stretch="Uniform" ImageSource="Assets/SR_logotyp_tight.png"/>
+            	</Border.OpacityMask>
+            </Border>
+            <TextBlock x:Name="PageTitle" Text="ekot" Margin="9,0,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel contains ListBox and ListBox ItemTemplate. Place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <ListBox x:Name="MainListBox" Margin="0,0,-12,0" 
-                     ItemsSource="{Binding Items}" SelectionChanged="MainListBox_SelectionChanged" ItemContainerStyle="{StaticResource ListBoxItemStyle1}">
+                     ItemsSource="{Binding Items}" SelectionChanged="MainListBox_SelectionChanged" ItemContainerStyle="{StaticResource ListBoxItemStyle1}" BorderThickness="0,0,12,0">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                       <Grid Margin="0,0,0,17">
@@ -87,7 +98,7 @@
                       	</Grid.RowDefinitions>
                     		<TextBlock x:Name="Title" Text="{Binding Title}" TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}" Margin="12,0"/>
                     		<TextBlock x:Name="Content" Text="{Binding Content}" Style="{StaticResource PhoneTextSmallStyle}" HorizontalAlignment="Left" Grid.Row="1"/>
-                    		<TextBlock x:Name="Duration" Text="{Binding Duration}" Style="{StaticResource PhoneTextSmallStyle}" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+                    		<TextBlock x:Name="Duration" Text="{Binding Duration}" Style="{StaticResource PhoneTextLargeStyle}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="{StaticResource PhoneAccentBrush}" Margin="12,0,12,2"/>
                     		<TextBlock x:Name="Date" Text="{Binding Date, Converter={StaticResource DateTimeToDateStringConverter}}" Style="{StaticResource PhoneTextSmallStyle}" HorizontalAlignment="Right" Grid.Row="1"/>
                     	</Grid>
                     </DataTemplate>
