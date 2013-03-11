@@ -11,5 +11,7 @@ namespace Kramer.Common.ViewModels
         public string Author { get; set; }
 
         public string Content { get; set; }
+
+        public string AudioUri { get; set; }
     }
 }

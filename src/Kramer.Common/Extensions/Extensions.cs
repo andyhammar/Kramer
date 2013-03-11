@@ -8,5 +8,10 @@ namespace Kramer.Common.Extensions
         {
             return date.ToString("yyyy-MM-dd");
         }
+
+        public static string ToSwedishTime(this DateTime date)
+        {
+            return date.ToString("HH:mm");
+        }
     }
 }

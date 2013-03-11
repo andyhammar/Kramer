@@ -1,0 +1,3205 @@
+{
+"copyright": "Copyright Sveriges Radio 2013. All rights reserved.",
+"episodes": [
+{
+"id": 164463,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362866400000)/",
+"broadcast": {
+"playlist": {
+"duration": 420,
+"publishdateutc": "/Date(1362866400000)/",
+"id": 4464105,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4464105&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464105_Ekonyheter 20130309 23:00"
+},
+"broadcastfiles": [
+{
+"duration": 420,
+"publishdateutc": "/Date(1362866400000)/",
+"id": 4464105,
+"url": "http://sverigesradio.se/topsy/ljudfil/4464105-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464105_Ekonyheter 20130309 23:00"
+}
+]
+}
+},
+{
+"id": 164460,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362862800000)/",
+"broadcast": {
+"playlist": {
+"duration": 300,
+"publishdateutc": "/Date(1362862800000)/",
+"id": 4464093,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4464093&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464093_Ekonyheter 20130309 22:00"
+},
+"broadcastfiles": [
+{
+"duration": 300,
+"publishdateutc": "/Date(1362862800000)/",
+"id": 4464093,
+"url": "http://sverigesradio.se/topsy/ljudfil/4464093-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464093_Ekonyheter 20130309 22:00"
+}
+]
+}
+},
+{
+"id": 164458,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362859200000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362859200000)/",
+"id": 4464081,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4464081&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464081_Ekonyheter 20130309 21:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362859200000)/",
+"id": 4464081,
+"url": "http://sverigesradio.se/topsy/ljudfil/4464081-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464081_Ekonyheter 20130309 21:00"
+}
+]
+}
+},
+{
+"id": 164455,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362855600000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362855600000)/",
+"id": 4464068,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4464068&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464068_Ekonyheter 20130309 20:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362855600000)/",
+"id": 4464068,
+"url": "http://sverigesradio.se/topsy/ljudfil/4464068-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464068_Ekonyheter 20130309 20:00"
+}
+]
+}
+},
+{
+"id": 164450,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362852000000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362852000000)/",
+"id": 4464051,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4464051&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464051_Ekonyheter 20130309 19:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362852000000)/",
+"id": 4464051,
+"url": "http://sverigesradio.se/topsy/ljudfil/4464051-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464051_Ekonyheter 20130309 19:00"
+}
+]
+}
+},
+{
+"id": 164448,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362848400000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362848400000)/",
+"id": 4464023,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4464023&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464023_Ekonyheter 20130309 18:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362848400000)/",
+"id": 4464023,
+"url": "http://sverigesradio.se/topsy/ljudfil/4464023-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464023_Ekonyheter 20130309 18:00"
+}
+]
+}
+},
+{
+"id": 164447,
+"title": "Dagens Eko ",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362847500000)/",
+"broadcast": {
+"playlist": {
+"duration": 900,
+"publishdateutc": "/Date(1362847500000)/",
+"id": 4464022,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4464022&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464022_Dagens Eko 20130309 17:45"
+},
+"broadcastfiles": [
+{
+"duration": 900,
+"publishdateutc": "/Date(1362847500000)/",
+"id": 4464022,
+"url": "http://sverigesradio.se/topsy/ljudfil/4464022-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4464022_Dagens Eko 20130309 17:45"
+}
+]
+}
+},
+{
+"id": 164445,
+"title": "Dagens Eko",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362843900000)/",
+"broadcast": {
+"playlist": {
+"duration": 900,
+"publishdateutc": "/Date(1362843900000)/",
+"id": 4463989,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463989&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463989_Dagens Eko 20130309 16:45"
+},
+"broadcastfiles": [
+{
+"duration": 900,
+"publishdateutc": "/Date(1362843900000)/",
+"id": 4463989,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463989-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463989_Dagens Eko 20130309 16:45"
+}
+]
+},
+"downloadpodfile": {
+"title": "Dagens Eko 20130309 16:45",
+"description": "",
+"filesizeinbytes": 14414244,
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"duration": 900,
+"publishdateutc": "/Date(1362843900000)/",
+"id": 4463990,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463990.mp3",
+"statkey": "webbradio/start/lyssnaigenmp3/83_-83_Ekot/4463990_Dagens Eko 20130309 16:45"
+}
+},
+{
+"id": 164442,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362841200000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362841200000)/",
+"id": 4463960,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463960&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463960_Ekonyheter 20130309 16:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362841200000)/",
+"id": 4463960,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463960-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463960_Ekonyheter 20130309 16:00"
+}
+]
+}
+},
+{
+"id": 164440,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362837600000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362837600000)/",
+"id": 4463946,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463946&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463946_Ekonyheter 20130309 15:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362837600000)/",
+"id": 4463946,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463946-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463946_Ekonyheter 20130309 15:00"
+}
+]
+}
+},
+{
+"id": 164435,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362834000000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362834000000)/",
+"id": 4463912,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463912&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463912_Ekonyheter 20130309 14:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362834000000)/",
+"id": 4463912,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463912-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463912_Ekonyheter 20130309 14:00"
+}
+]
+}
+},
+{
+"id": 164410,
+"title": "Luncheko",
+"description": "Med mediekrönika.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362828600000)/",
+"broadcast": {
+"playlist": {
+"duration": 1200,
+"publishdateutc": "/Date(1362828600000)/",
+"id": 4463814,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463814&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463814_Luncheko 20130309 12:30"
+},
+"broadcastfiles": [
+{
+"duration": 1200,
+"publishdateutc": "/Date(1362828600000)/",
+"id": 4463814,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463814-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463814_Luncheko 20130309 12:30"
+}
+]
+},
+"downloadpodfile": {
+"title": "Luncheko 20130309 12:30",
+"description": "Med mediekrönika.",
+"filesizeinbytes": 19201144,
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"duration": 1200,
+"publishdateutc": "/Date(1362828600000)/",
+"id": 4463813,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463813.mp3",
+"statkey": "webbradio/start/lyssnaigenmp3/83_-83_Ekot/4463813_Luncheko 20130309 12:30"
+}
+},
+{
+"id": 164384,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362826800000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362826800000)/",
+"id": 4463724,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463724&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463724_Ekonyheter 20130309 12:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362826800000)/",
+"id": 4463724,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463724-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463724_Ekonyheter 20130309 12:00"
+}
+]
+}
+},
+{
+"id": 164385,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362826800000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362826800000)/",
+"id": 4463725,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463725&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463725_Ekonyheter 20130309 12:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362826800000)/",
+"id": 4463725,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463725-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463725_Ekonyheter 20130309 12:00"
+}
+]
+}
+},
+{
+"id": 164358,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362823200000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362823200000)/",
+"id": 4463637,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463637&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463637_Ekonyheter 20130309 11:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362823200000)/",
+"id": 4463637,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463637-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463637_Ekonyheter 20130309 11:00"
+}
+]
+}
+},
+{
+"id": 164331,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362819600000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362819600000)/",
+"id": 4463550,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463550&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463550_Ekonyheter 20130309 10:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362819600000)/",
+"id": 4463550,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463550-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463550_Ekonyheter 20130309 10:00"
+}
+]
+}
+},
+{
+"id": 164304,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362816000000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362816000000)/",
+"id": 4463439,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463439&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463439_Ekonyheter 20130309 09:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362816000000)/",
+"id": 4463439,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463439-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463439_Ekonyheter 20130309 09:00"
+}
+]
+}
+},
+{
+"id": 164305,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362816000000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362816000000)/",
+"id": 4463440,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463440&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463440_Ekonyheter 20130309 09:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362816000000)/",
+"id": 4463440,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463440-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463440_Ekonyheter 20130309 09:00"
+}
+]
+}
+},
+{
+"id": 164279,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362812400000)/",
+"broadcast": {
+"playlist": {
+"duration": 300,
+"publishdateutc": "/Date(1362812400000)/",
+"id": 4463354,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463354&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463354_Ekonyheter 20130309 08:00"
+},
+"broadcastfiles": [
+{
+"duration": 300,
+"publishdateutc": "/Date(1362812400000)/",
+"id": 4463354,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463354-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463354_Ekonyheter 20130309 08:00"
+}
+]
+}
+},
+{
+"id": 164275,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362808800000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362808800000)/",
+"id": 4463336,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463336&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463336_Ekonyheter 20130309 07:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362808800000)/",
+"id": 4463336,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463336-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463336_Ekonyheter 20130309 07:00"
+}
+]
+},
+"downloadpodfile": {
+"title": "Ekonyheter 20130309 07:00",
+"description": "",
+"filesizeinbytes": 2881078,
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"duration": 180,
+"publishdateutc": "/Date(1362808800000)/",
+"id": 4463337,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463337.mp3",
+"statkey": "webbradio/start/lyssnaigenmp3/83_-83_Ekot/4463337_Ekonyheter 20130309 07:00"
+}
+},
+{
+"id": 164270,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362805200000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362805200000)/",
+"id": 4463323,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463323&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463323_Ekonyheter 20130309 06:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362805200000)/",
+"id": 4463323,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463323-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463323_Ekonyheter 20130309 06:00"
+}
+]
+}
+},
+{
+"id": 164271,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362805200000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362805200000)/",
+"id": 4463324,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463324&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463324_Ekonyheter 20130309 06:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362805200000)/",
+"id": 4463324,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463324-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463324_Ekonyheter 20130309 06:00"
+}
+]
+}
+},
+{
+"id": 164268,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362801600000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362801600000)/",
+"id": 4463313,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463313&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463313_Ekonyheter 20130309 05:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362801600000)/",
+"id": 4463313,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463313-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463313_Ekonyheter 20130309 05:00"
+}
+]
+}
+},
+{
+"id": 164267,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362798000000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362798000000)/",
+"id": 4463305,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463305&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463305_Ekonyheter 20130309 04:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362798000000)/",
+"id": 4463305,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463305-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463305_Ekonyheter 20130309 04:00"
+}
+]
+}
+},
+{
+"id": 164266,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362794400000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362794400000)/",
+"id": 4463295,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463295&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463295_Ekonyheter 20130309 03:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362794400000)/",
+"id": 4463295,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463295-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463295_Ekonyheter 20130309 03:00"
+}
+]
+}
+},
+{
+"id": 164265,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362790800000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362790800000)/",
+"id": 4463290,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463290&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463290_Ekonyheter 20130309 02:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362790800000)/",
+"id": 4463290,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463290-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463290_Ekonyheter 20130309 02:00"
+}
+]
+}
+},
+{
+"id": 164264,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362787200000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362787200000)/",
+"id": 4463282,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463282&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463282_Ekonyheter 20130309 01:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362787200000)/",
+"id": 4463282,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463282-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463282_Ekonyheter 20130309 01:00"
+}
+]
+}
+},
+{
+"id": 164261,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362783600000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362783600000)/",
+"id": 4463270,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463270&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463270_Ekonyheter 20130309 00:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362783600000)/",
+"id": 4463270,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463270-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463270_Ekonyheter 20130309 00:00"
+}
+]
+}
+},
+{
+"id": 164259,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362780000000)/",
+"broadcast": {
+"playlist": {
+"duration": 420,
+"publishdateutc": "/Date(1362780000000)/",
+"id": 4463258,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463258&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463258_Ekonyheter 20130308 23:00"
+},
+"broadcastfiles": [
+{
+"duration": 420,
+"publishdateutc": "/Date(1362780000000)/",
+"id": 4463258,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463258-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463258_Ekonyheter 20130308 23:00"
+}
+]
+}
+},
+{
+"id": 164257,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362776400000)/",
+"broadcast": {
+"playlist": {
+"duration": 600,
+"publishdateutc": "/Date(1362776400000)/",
+"id": 4463232,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463232&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463232_Ekonyheter 20130308 22:00"
+},
+"broadcastfiles": [
+{
+"duration": 600,
+"publishdateutc": "/Date(1362776400000)/",
+"id": 4463232,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463232-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463232_Ekonyheter 20130308 22:00"
+}
+]
+}
+},
+{
+"id": 164253,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362772800000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362772800000)/",
+"id": 4463197,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463197&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463197_Ekonyheter 20130308 21:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362772800000)/",
+"id": 4463197,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463197-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463197_Ekonyheter 20130308 21:00"
+}
+]
+}
+},
+{
+"id": 164247,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362769200000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362769200000)/",
+"id": 4463180,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463180&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463180_Ekonyheter 20130308 20:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362769200000)/",
+"id": 4463180,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463180-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463180_Ekonyheter 20130308 20:00"
+}
+]
+}
+},
+{
+"id": 164243,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362765600000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362765600000)/",
+"id": 4463164,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463164&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463164_Ekonyheter 20130308 19:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362765600000)/",
+"id": 4463164,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463164-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463164_Ekonyheter 20130308 19:00"
+}
+]
+}
+},
+{
+"id": 164244,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362765600000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362765600000)/",
+"id": 4463165,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463165&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463165_Ekonyheter 20130308 19:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362765600000)/",
+"id": 4463165,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463165-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463165_Ekonyheter 20130308 19:00"
+}
+]
+}
+},
+{
+"id": 164232,
+"title": "Dagens Eko ",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362761100000)/",
+"broadcast": {
+"playlist": {
+"duration": 900,
+"publishdateutc": "/Date(1362761100000)/",
+"id": 4463124,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4463124&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463124_Dagens Eko 20130308 17:45"
+},
+"broadcastfiles": [
+{
+"duration": 900,
+"publishdateutc": "/Date(1362761100000)/",
+"id": 4463124,
+"url": "http://sverigesradio.se/topsy/ljudfil/4463124-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4463124_Dagens Eko 20130308 17:45"
+}
+]
+}
+},
+{
+"id": 164200,
+"title": "Dagens Eko",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362757500000)/",
+"broadcast": {
+"playlist": {
+"duration": 900,
+"publishdateutc": "/Date(1362757500000)/",
+"id": 4462996,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4462996&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462996_Dagens Eko 20130308 16:45"
+},
+"broadcastfiles": [
+{
+"duration": 900,
+"publishdateutc": "/Date(1362757500000)/",
+"id": 4462996,
+"url": "http://sverigesradio.se/topsy/ljudfil/4462996-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462996_Dagens Eko 20130308 16:45"
+}
+]
+},
+"downloadpodfile": {
+"title": "Dagens Eko 20130308 16:45",
+"description": "",
+"filesizeinbytes": 14414244,
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"duration": 900,
+"publishdateutc": "/Date(1362757500000)/",
+"id": 4462993,
+"url": "http://sverigesradio.se/topsy/ljudfil/4462993.mp3",
+"statkey": "webbradio/start/lyssnaigenmp3/83_-83_Ekot/4462993_Dagens Eko 20130308 16:45"
+}
+},
+{
+"id": 164165,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362754800000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362754800000)/",
+"id": 4462786,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4462786&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462786_Ekonyheter 20130308 16:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362754800000)/",
+"id": 4462786,
+"url": "http://sverigesradio.se/topsy/ljudfil/4462786-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462786_Ekonyheter 20130308 16:00"
+}
+]
+}
+},
+{
+"id": 164161,
+"title": "Dagens Eko ",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362753900000)/",
+"broadcast": {
+"playlist": {
+"duration": 600,
+"publishdateutc": "/Date(1362753900000)/",
+"id": 4462776,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4462776&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462776_Dagens Eko 20130308 15:45"
+},
+"broadcastfiles": [
+{
+"duration": 600,
+"publishdateutc": "/Date(1362753900000)/",
+"id": 4462776,
+"url": "http://sverigesradio.se/topsy/ljudfil/4462776-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462776_Dagens Eko 20130308 15:45"
+}
+]
+}
+},
+{
+"id": 164126,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362751200000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362751200000)/",
+"id": 4462611,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4462611&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462611_Ekonyheter 20130308 15:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362751200000)/",
+"id": 4462611,
+"url": "http://sverigesradio.se/topsy/ljudfil/4462611-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462611_Ekonyheter 20130308 15:00"
+}
+]
+}
+},
+{
+"id": 164084,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362747600000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362747600000)/",
+"id": 4462394,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4462394&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462394_Ekonyheter 20130308 14:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362747600000)/",
+"id": 4462394,
+"url": "http://sverigesradio.se/topsy/ljudfil/4462394-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462394_Ekonyheter 20130308 14:00"
+}
+]
+}
+},
+{
+"id": 164051,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362744000000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362744000000)/",
+"id": 4462221,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4462221&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462221_Ekonyheter 20130308 13:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362744000000)/",
+"id": 4462221,
+"url": "http://sverigesradio.se/topsy/ljudfil/4462221-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462221_Ekonyheter 20130308 13:00"
+}
+]
+}
+},
+{
+"id": 164048,
+"title": "Luncheko",
+"description": "Med ekonomi och sport.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362742200000)/",
+"broadcast": {
+"playlist": {
+"duration": 1500,
+"publishdateutc": "/Date(1362742200000)/",
+"id": 4462209,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4462209&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462209_Luncheko 20130308 12:30"
+},
+"broadcastfiles": [
+{
+"duration": 1500,
+"publishdateutc": "/Date(1362742200000)/",
+"id": 4462209,
+"url": "http://sverigesradio.se/topsy/ljudfil/4462209-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462209_Luncheko 20130308 12:30"
+}
+]
+},
+"downloadpodfile": {
+"title": "Luncheko 20130308 12:30",
+"description": "Med ekonomi och sport.",
+"filesizeinbytes": 24001411,
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"duration": 1500,
+"publishdateutc": "/Date(1362742200000)/",
+"id": 4462211,
+"url": "http://sverigesradio.se/topsy/ljudfil/4462211.mp3",
+"statkey": "webbradio/start/lyssnaigenmp3/83_-83_Ekot/4462211_Luncheko 20130308 12:30"
+}
+},
+{
+"id": 164014,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362740700000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362740700000)/",
+"id": 4462090,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4462090&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462090_Ekonyheter 20130308 12:05"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362740700000)/",
+"id": 4462090,
+"url": "http://sverigesradio.se/topsy/ljudfil/4462090-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462090_Ekonyheter 20130308 12:05"
+}
+]
+}
+},
+{
+"id": 164016,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362740400000)/",
+"broadcast": {
+"playlist": {
+"duration": 600,
+"publishdateutc": "/Date(1362740400000)/",
+"id": 4462114,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4462114&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462114_Ekonyheter 20130308 12:00"
+},
+"broadcastfiles": [
+{
+"duration": 600,
+"publishdateutc": "/Date(1362740400000)/",
+"id": 4462114,
+"url": "http://sverigesradio.se/topsy/ljudfil/4462114-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4462114_Ekonyheter 20130308 12:00"
+}
+]
+}
+},
+{
+"id": 163976,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362736800000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362736800000)/",
+"id": 4461944,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461944&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461944_Ekonyheter 20130308 11:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362736800000)/",
+"id": 4461944,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461944-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461944_Ekonyheter 20130308 11:00"
+}
+]
+}
+},
+{
+"id": 163940,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362733200000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362733200000)/",
+"id": 4461795,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461795&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461795_Ekonyheter 20130308 10:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362733200000)/",
+"id": 4461795,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461795-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461795_Ekonyheter 20130308 10:00"
+}
+]
+}
+},
+{
+"id": 163941,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362733200000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362733200000)/",
+"id": 4461796,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461796&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461796_Ekonyheter 20130308 10:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362733200000)/",
+"id": 4461796,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461796-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461796_Ekonyheter 20130308 10:00"
+}
+]
+}
+},
+{
+"id": 163899,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362729600000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362729600000)/",
+"id": 4461634,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461634&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461634_Ekonyheter 20130308 09:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362729600000)/",
+"id": 4461634,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461634-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461634_Ekonyheter 20130308 09:00"
+}
+]
+}
+},
+{
+"id": 163900,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362729600000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362729600000)/",
+"id": 4461638,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461638&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461638_Ekonyheter 20130308 09:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362729600000)/",
+"id": 4461638,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461638-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461638_Ekonyheter 20130308 09:00"
+}
+]
+}
+},
+{
+"id": 163906,
+"title": "Morgoneko",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362729600000)/",
+"broadcast": {
+"playlist": {
+"duration": 840,
+"publishdateutc": "/Date(1362729600000)/",
+"id": 4461679,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461679&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461679_Morgoneko 20130308 09:00"
+},
+"broadcastfiles": [
+{
+"duration": 840,
+"publishdateutc": "/Date(1362729600000)/",
+"id": 4461679,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461679-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461679_Morgoneko 20130308 09:00"
+}
+]
+}
+},
+{
+"id": 163866,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362727800000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362727800000)/",
+"id": 4461548,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461548&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461548_Ekonyheter 20130308 08:30"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362727800000)/",
+"id": 4461548,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461548-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461548_Ekonyheter 20130308 08:30"
+}
+]
+}
+},
+{
+"id": 163859,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362726000000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362726000000)/",
+"id": 4461497,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461497&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461497_Ekonyheter 20130308 08:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362726000000)/",
+"id": 4461497,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461497-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461497_Ekonyheter 20130308 08:00"
+}
+]
+}
+},
+{
+"id": 163861,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362726000000)/",
+"broadcast": {
+"playlist": {
+"duration": 420,
+"publishdateutc": "/Date(1362726000000)/",
+"id": 4461517,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461517&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461517_Ekonyheter 20130308 08:00"
+},
+"broadcastfiles": [
+{
+"duration": 420,
+"publishdateutc": "/Date(1362726000000)/",
+"id": 4461517,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461517-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461517_Ekonyheter 20130308 08:00"
+}
+]
+}
+},
+{
+"id": 163864,
+"title": "Morgoneko",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362726000000)/",
+"broadcast": {
+"playlist": {
+"duration": 900,
+"publishdateutc": "/Date(1362726000000)/",
+"id": 4461536,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461536&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461536_Morgoneko 20130308 08:00"
+},
+"broadcastfiles": [
+{
+"duration": 900,
+"publishdateutc": "/Date(1362726000000)/",
+"id": 4461536,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461536-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461536_Morgoneko 20130308 08:00"
+}
+]
+}
+},
+{
+"id": 163822,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362724200000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362724200000)/",
+"id": 4461413,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461413&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461413_Ekonyheter 20130308 07:30"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362724200000)/",
+"id": 4461413,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461413-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461413_Ekonyheter 20130308 07:30"
+}
+]
+}
+},
+{
+"id": 163817,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362722400000)/",
+"broadcast": {
+"playlist": {
+"duration": 420,
+"publishdateutc": "/Date(1362722400000)/",
+"id": 4461386,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461386&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461386_Ekonyheter 20130308 07:00"
+},
+"broadcastfiles": [
+{
+"duration": 420,
+"publishdateutc": "/Date(1362722400000)/",
+"id": 4461386,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461386-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461386_Ekonyheter 20130308 07:00"
+}
+]
+}
+},
+{
+"id": 163819,
+"title": "Morgoneko",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362722400000)/",
+"broadcast": {
+"playlist": {
+"duration": 1080,
+"publishdateutc": "/Date(1362722400000)/",
+"id": 4461408,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461408&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461408_Morgoneko 20130308 07:00"
+},
+"broadcastfiles": [
+{
+"duration": 1080,
+"publishdateutc": "/Date(1362722400000)/",
+"id": 4461408,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461408-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461408_Morgoneko 20130308 07:00"
+}
+]
+},
+"downloadpodfile": {
+"title": "Morgoneko 20130308 07:00",
+"description": "",
+"filesizeinbytes": 17281861,
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"duration": 1080,
+"publishdateutc": "/Date(1362722400000)/",
+"id": 4461407,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461407.mp3",
+"statkey": "webbradio/start/lyssnaigenmp3/83_-83_Ekot/4461407_Morgoneko 20130308 07:00"
+}
+},
+{
+"id": 163776,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362720600000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362720600000)/",
+"id": 4461277,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461277&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461277_Ekonyheter 20130308 06:30"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362720600000)/",
+"id": 4461277,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461277-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461277_Ekonyheter 20130308 06:30"
+}
+]
+}
+},
+{
+"id": 163773,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362718800000)/",
+"broadcast": {
+"playlist": {
+"duration": 300,
+"publishdateutc": "/Date(1362718800000)/",
+"id": 4461263,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461263&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461263_Ekonyheter 20130308 06:00"
+},
+"broadcastfiles": [
+{
+"duration": 300,
+"publishdateutc": "/Date(1362718800000)/",
+"id": 4461263,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461263-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461263_Ekonyheter 20130308 06:00"
+}
+]
+}
+},
+{
+"id": 163775,
+"title": "Morgoneko",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362718800000)/",
+"broadcast": {
+"playlist": {
+"duration": 900,
+"publishdateutc": "/Date(1362718800000)/",
+"id": 4461276,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461276&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461276_Morgoneko 20130308 06:00"
+},
+"broadcastfiles": [
+{
+"duration": 900,
+"publishdateutc": "/Date(1362718800000)/",
+"id": 4461276,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461276-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461276_Morgoneko 20130308 06:00"
+}
+]
+}
+},
+{
+"id": 163768,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362717000000)/",
+"broadcast": {
+"playlist": {
+"duration": 300,
+"publishdateutc": "/Date(1362717000000)/",
+"id": 4461223,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461223&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461223_Ekonyheter 20130308 05:30"
+},
+"broadcastfiles": [
+{
+"duration": 300,
+"publishdateutc": "/Date(1362717000000)/",
+"id": 4461223,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461223-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461223_Ekonyheter 20130308 05:30"
+}
+]
+}
+},
+{
+"id": 163767,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362715200000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362715200000)/",
+"id": 4461217,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461217&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461217_Ekonyheter 20130308 05:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362715200000)/",
+"id": 4461217,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461217-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461217_Ekonyheter 20130308 05:00"
+}
+]
+}
+},
+{
+"id": 163766,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362711600000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362711600000)/",
+"id": 4461204,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461204&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461204_Ekonyheter 20130308 04:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362711600000)/",
+"id": 4461204,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461204-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461204_Ekonyheter 20130308 04:00"
+}
+]
+}
+},
+{
+"id": 163765,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362708000000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362708000000)/",
+"id": 4461201,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461201&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461201_Ekonyheter 20130308 03:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362708000000)/",
+"id": 4461201,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461201-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461201_Ekonyheter 20130308 03:00"
+}
+]
+}
+},
+{
+"id": 163764,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362704400000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362704400000)/",
+"id": 4461195,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461195&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461195_Ekonyheter 20130308 02:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362704400000)/",
+"id": 4461195,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461195-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461195_Ekonyheter 20130308 02:00"
+}
+]
+}
+},
+{
+"id": 163763,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362700800000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362700800000)/",
+"id": 4461186,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461186&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461186_Ekonyheter 20130308 01:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362700800000)/",
+"id": 4461186,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461186-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461186_Ekonyheter 20130308 01:00"
+}
+]
+}
+},
+{
+"id": 163761,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362697200000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362697200000)/",
+"id": 4461175,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461175&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461175_Ekonyheter 20130308 00:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362697200000)/",
+"id": 4461175,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461175-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461175_Ekonyheter 20130308 00:00"
+}
+]
+}
+},
+{
+"id": 163760,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362693600000)/",
+"broadcast": {
+"playlist": {
+"duration": 420,
+"publishdateutc": "/Date(1362693600000)/",
+"id": 4461168,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461168&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461168_Ekonyheter 20130307 23:00"
+},
+"broadcastfiles": [
+{
+"duration": 420,
+"publishdateutc": "/Date(1362693600000)/",
+"id": 4461168,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461168-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461168_Ekonyheter 20130307 23:00"
+}
+]
+}
+},
+{
+"id": 163757,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362690000000)/",
+"broadcast": {
+"playlist": {
+"duration": 600,
+"publishdateutc": "/Date(1362690000000)/",
+"id": 4461152,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461152&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461152_Ekonyheter 20130307 22:00"
+},
+"broadcastfiles": [
+{
+"duration": 600,
+"publishdateutc": "/Date(1362690000000)/",
+"id": 4461152,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461152-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461152_Ekonyheter 20130307 22:00"
+}
+]
+}
+},
+{
+"id": 163753,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362686400000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362686400000)/",
+"id": 4461132,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461132&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461132_Ekonyheter 20130307 21:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362686400000)/",
+"id": 4461132,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461132-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461132_Ekonyheter 20130307 21:00"
+}
+]
+}
+},
+{
+"id": 163748,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362682800000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362682800000)/",
+"id": 4461107,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461107&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461107_Ekonyheter 20130307 20:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362682800000)/",
+"id": 4461107,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461107-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461107_Ekonyheter 20130307 20:00"
+}
+]
+}
+},
+{
+"id": 163741,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362679200000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362679200000)/",
+"id": 4461075,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461075&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461075_Ekonyheter 20130307 19:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362679200000)/",
+"id": 4461075,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461075-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461075_Ekonyheter 20130307 19:00"
+}
+]
+}
+},
+{
+"id": 163743,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362679200000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362679200000)/",
+"id": 4461083,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4461083&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461083_Ekonyheter 20130307 19:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362679200000)/",
+"id": 4461083,
+"url": "http://sverigesradio.se/topsy/ljudfil/4461083-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4461083_Ekonyheter 20130307 19:00"
+}
+]
+}
+},
+{
+"id": 163731,
+"title": "Dagens Eko ",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362674700000)/",
+"broadcast": {
+"playlist": {
+"duration": 900,
+"publishdateutc": "/Date(1362674700000)/",
+"id": 4460975,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4460975&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460975_Dagens Eko 20130307 17:45"
+},
+"broadcastfiles": [
+{
+"duration": 900,
+"publishdateutc": "/Date(1362674700000)/",
+"id": 4460975,
+"url": "http://sverigesradio.se/topsy/ljudfil/4460975-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460975_Dagens Eko 20130307 17:45"
+}
+]
+}
+},
+{
+"id": 163695,
+"title": "Dagens Eko",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362671100000)/",
+"broadcast": {
+"playlist": {
+"duration": 900,
+"publishdateutc": "/Date(1362671100000)/",
+"id": 4460824,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4460824&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460824_Dagens Eko 20130307 16:45"
+},
+"broadcastfiles": [
+{
+"duration": 900,
+"publishdateutc": "/Date(1362671100000)/",
+"id": 4460824,
+"url": "http://sverigesradio.se/topsy/ljudfil/4460824-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460824_Dagens Eko 20130307 16:45"
+}
+]
+},
+"downloadpodfile": {
+"title": "Dagens Eko 20130307 16:45",
+"description": "",
+"filesizeinbytes": 14414244,
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"duration": 900,
+"publishdateutc": "/Date(1362671100000)/",
+"id": 4460818,
+"url": "http://sverigesradio.se/topsy/ljudfil/4460818.mp3",
+"statkey": "webbradio/start/lyssnaigenmp3/83_-83_Ekot/4460818_Dagens Eko 20130307 16:45"
+}
+},
+{
+"id": 163659,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362668400000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362668400000)/",
+"id": 4460588,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4460588&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460588_Ekonyheter 20130307 16:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362668400000)/",
+"id": 4460588,
+"url": "http://sverigesradio.se/topsy/ljudfil/4460588-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460588_Ekonyheter 20130307 16:00"
+}
+]
+}
+},
+{
+"id": 163656,
+"title": "Dagens Eko ",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362667500000)/",
+"broadcast": {
+"playlist": {
+"duration": 600,
+"publishdateutc": "/Date(1362667500000)/",
+"id": 4460579,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4460579&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460579_Dagens Eko 20130307 15:45"
+},
+"broadcastfiles": [
+{
+"duration": 600,
+"publishdateutc": "/Date(1362667500000)/",
+"id": 4460579,
+"url": "http://sverigesradio.se/topsy/ljudfil/4460579-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460579_Dagens Eko 20130307 15:45"
+}
+]
+}
+},
+{
+"id": 163619,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362664800000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362664800000)/",
+"id": 4460424,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4460424&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460424_Ekonyheter 20130307 15:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362664800000)/",
+"id": 4460424,
+"url": "http://sverigesradio.se/topsy/ljudfil/4460424-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460424_Ekonyheter 20130307 15:00"
+}
+]
+}
+},
+{
+"id": 163581,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362661200000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362661200000)/",
+"id": 4460258,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4460258&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460258_Ekonyheter 20130307 14:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362661200000)/",
+"id": 4460258,
+"url": "http://sverigesradio.se/topsy/ljudfil/4460258-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460258_Ekonyheter 20130307 14:00"
+}
+]
+}
+},
+{
+"id": 163549,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362657600000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362657600000)/",
+"id": 4460102,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4460102&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460102_Ekonyheter 20130307 13:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362657600000)/",
+"id": 4460102,
+"url": "http://sverigesradio.se/topsy/ljudfil/4460102-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460102_Ekonyheter 20130307 13:00"
+}
+]
+}
+},
+{
+"id": 163546,
+"title": "Luncheko",
+"description": "Med ekonomi och sport.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362655800000)/",
+"broadcast": {
+"playlist": {
+"duration": 1500,
+"publishdateutc": "/Date(1362655800000)/",
+"id": 4460094,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4460094&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460094_Luncheko 20130307 12:30"
+},
+"broadcastfiles": [
+{
+"duration": 1500,
+"publishdateutc": "/Date(1362655800000)/",
+"id": 4460094,
+"url": "http://sverigesradio.se/topsy/ljudfil/4460094-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460094_Luncheko 20130307 12:30"
+}
+]
+},
+"downloadpodfile": {
+"title": "Luncheko 20130307 12:30",
+"description": "Med ekonomi och sport.",
+"filesizeinbytes": 24001411,
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"duration": 1500,
+"publishdateutc": "/Date(1362655800000)/",
+"id": 4460095,
+"url": "http://sverigesradio.se/topsy/ljudfil/4460095.mp3",
+"statkey": "webbradio/start/lyssnaigenmp3/83_-83_Ekot/4460095_Luncheko 20130307 12:30"
+}
+},
+{
+"id": 163516,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362654300000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362654300000)/",
+"id": 4459991,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459991&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459991_Ekonyheter 20130307 12:05"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362654300000)/",
+"id": 4459991,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459991-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459991_Ekonyheter 20130307 12:05"
+}
+]
+}
+},
+{
+"id": 163517,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362654000000)/",
+"broadcast": {
+"playlist": {
+"duration": 600,
+"publishdateutc": "/Date(1362654000000)/",
+"id": 4460010,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4460010&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460010_Ekonyheter 20130307 12:00"
+},
+"broadcastfiles": [
+{
+"duration": 600,
+"publishdateutc": "/Date(1362654000000)/",
+"id": 4460010,
+"url": "http://sverigesradio.se/topsy/ljudfil/4460010-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4460010_Ekonyheter 20130307 12:00"
+}
+]
+}
+},
+{
+"id": 163483,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362650400000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362650400000)/",
+"id": 4459836,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459836&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459836_Ekonyheter 20130307 11:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362650400000)/",
+"id": 4459836,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459836-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459836_Ekonyheter 20130307 11:00"
+}
+]
+}
+},
+{
+"id": 163446,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362646800000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362646800000)/",
+"id": 4459679,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459679&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459679_Ekonyheter 20130307 10:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362646800000)/",
+"id": 4459679,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459679-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459679_Ekonyheter 20130307 10:00"
+}
+]
+}
+},
+{
+"id": 163447,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362646800000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362646800000)/",
+"id": 4459682,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459682&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459682_Ekonyheter 20130307 10:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362646800000)/",
+"id": 4459682,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459682-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459682_Ekonyheter 20130307 10:00"
+}
+]
+}
+},
+{
+"id": 163405,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362643200000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362643200000)/",
+"id": 4459539,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459539&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459539_Ekonyheter 20130307 09:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362643200000)/",
+"id": 4459539,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459539-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459539_Ekonyheter 20130307 09:00"
+}
+]
+}
+},
+{
+"id": 163407,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362643200000)/",
+"broadcast": {
+"playlist": {
+"duration": 180,
+"publishdateutc": "/Date(1362643200000)/",
+"id": 4459542,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459542&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459542_Ekonyheter 20130307 09:00"
+},
+"broadcastfiles": [
+{
+"duration": 180,
+"publishdateutc": "/Date(1362643200000)/",
+"id": 4459542,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459542-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459542_Ekonyheter 20130307 09:00"
+}
+]
+}
+},
+{
+"id": 163412,
+"title": "Morgoneko",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362643200000)/",
+"broadcast": {
+"playlist": {
+"duration": 840,
+"publishdateutc": "/Date(1362643200000)/",
+"id": 4459586,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459586&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459586_Morgoneko 20130307 09:00"
+},
+"broadcastfiles": [
+{
+"duration": 840,
+"publishdateutc": "/Date(1362643200000)/",
+"id": 4459586,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459586-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459586_Morgoneko 20130307 09:00"
+}
+]
+}
+},
+{
+"id": 163372,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362641400000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362641400000)/",
+"id": 4459447,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459447&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459447_Ekonyheter 20130307 08:30"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362641400000)/",
+"id": 4459447,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459447-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459447_Ekonyheter 20130307 08:30"
+}
+]
+}
+},
+{
+"id": 163360,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362639600000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362639600000)/",
+"id": 4459385,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459385&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459385_Ekonyheter 20130307 08:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362639600000)/",
+"id": 4459385,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459385-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459385_Ekonyheter 20130307 08:00"
+}
+]
+}
+},
+{
+"id": 163365,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362639600000)/",
+"broadcast": {
+"playlist": {
+"duration": 420,
+"publishdateutc": "/Date(1362639600000)/",
+"id": 4459415,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459415&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459415_Ekonyheter 20130307 08:00"
+},
+"broadcastfiles": [
+{
+"duration": 420,
+"publishdateutc": "/Date(1362639600000)/",
+"id": 4459415,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459415-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459415_Ekonyheter 20130307 08:00"
+}
+]
+}
+},
+{
+"id": 163370,
+"title": "Morgoneko",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362639600000)/",
+"broadcast": {
+"playlist": {
+"duration": 900,
+"publishdateutc": "/Date(1362639600000)/",
+"id": 4459435,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459435&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459435_Morgoneko 20130307 08:00"
+},
+"broadcastfiles": [
+{
+"duration": 900,
+"publishdateutc": "/Date(1362639600000)/",
+"id": 4459435,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459435-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459435_Morgoneko 20130307 08:00"
+}
+]
+}
+},
+{
+"id": 163322,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362637800000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362637800000)/",
+"id": 4459299,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459299&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459299_Ekonyheter 20130307 07:30"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362637800000)/",
+"id": 4459299,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459299-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459299_Ekonyheter 20130307 07:30"
+}
+]
+}
+},
+{
+"id": 163318,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362636000000)/",
+"broadcast": {
+"playlist": {
+"duration": 420,
+"publishdateutc": "/Date(1362636000000)/",
+"id": 4459277,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459277&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459277_Ekonyheter 20130307 07:00"
+},
+"broadcastfiles": [
+{
+"duration": 420,
+"publishdateutc": "/Date(1362636000000)/",
+"id": 4459277,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459277-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459277_Ekonyheter 20130307 07:00"
+}
+]
+}
+},
+{
+"id": 163320,
+"title": "Morgoneko",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362636000000)/",
+"broadcast": {
+"playlist": {
+"duration": 1080,
+"publishdateutc": "/Date(1362636000000)/",
+"id": 4459290,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459290&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459290_Morgoneko 20130307 07:00"
+},
+"broadcastfiles": [
+{
+"duration": 1080,
+"publishdateutc": "/Date(1362636000000)/",
+"id": 4459290,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459290-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459290_Morgoneko 20130307 07:00"
+}
+]
+},
+"downloadpodfile": {
+"title": "Morgoneko 20130307 07:00",
+"description": "",
+"filesizeinbytes": 17283951,
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"duration": 1080,
+"publishdateutc": "/Date(1362636000000)/",
+"id": 4459291,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459291.mp3",
+"statkey": "webbradio/start/lyssnaigenmp3/83_-83_Ekot/4459291_Morgoneko 20130307 07:00"
+}
+},
+{
+"id": 163276,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362634200000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362634200000)/",
+"id": 4459157,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459157&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459157_Ekonyheter 20130307 06:30"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362634200000)/",
+"id": 4459157,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459157-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459157_Ekonyheter 20130307 06:30"
+}
+]
+}
+},
+{
+"id": 163273,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362632400000)/",
+"broadcast": {
+"playlist": {
+"duration": 300,
+"publishdateutc": "/Date(1362632400000)/",
+"id": 4459144,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459144&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459144_Ekonyheter 20130307 06:00"
+},
+"broadcastfiles": [
+{
+"duration": 300,
+"publishdateutc": "/Date(1362632400000)/",
+"id": 4459144,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459144-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459144_Ekonyheter 20130307 06:00"
+}
+]
+}
+},
+{
+"id": 163275,
+"title": "Morgoneko",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362632400000)/",
+"broadcast": {
+"playlist": {
+"duration": 900,
+"publishdateutc": "/Date(1362632400000)/",
+"id": 4459153,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459153&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459153_Morgoneko 20130307 06:00"
+},
+"broadcastfiles": [
+{
+"duration": 900,
+"publishdateutc": "/Date(1362632400000)/",
+"id": 4459153,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459153-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459153_Morgoneko 20130307 06:00"
+}
+]
+}
+},
+{
+"id": 163268,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362630600000)/",
+"broadcast": {
+"playlist": {
+"duration": 300,
+"publishdateutc": "/Date(1362630600000)/",
+"id": 4459102,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459102&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459102_Ekonyheter 20130307 05:30"
+},
+"broadcastfiles": [
+{
+"duration": 300,
+"publishdateutc": "/Date(1362630600000)/",
+"id": 4459102,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459102-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459102_Ekonyheter 20130307 05:30"
+}
+]
+}
+},
+{
+"id": 163267,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362628800000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362628800000)/",
+"id": 4459095,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459095&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459095_Ekonyheter 20130307 05:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362628800000)/",
+"id": 4459095,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459095-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459095_Ekonyheter 20130307 05:00"
+}
+]
+}
+},
+{
+"id": 163266,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362625200000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362625200000)/",
+"id": 4459088,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459088&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459088_Ekonyheter 20130307 04:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362625200000)/",
+"id": 4459088,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459088-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459088_Ekonyheter 20130307 04:00"
+}
+]
+}
+},
+{
+"id": 163265,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362621600000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362621600000)/",
+"id": 4459085,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459085&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459085_Ekonyheter 20130307 03:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362621600000)/",
+"id": 4459085,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459085-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459085_Ekonyheter 20130307 03:00"
+}
+]
+}
+},
+{
+"id": 163264,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362618000000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362618000000)/",
+"id": 4459080,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459080&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459080_Ekonyheter 20130307 02:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362618000000)/",
+"id": 4459080,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459080-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459080_Ekonyheter 20130307 02:00"
+}
+]
+}
+},
+{
+"id": 163263,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362614400000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362614400000)/",
+"id": 4459076,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459076&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459076_Ekonyheter 20130307 01:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362614400000)/",
+"id": 4459076,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459076-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459076_Ekonyheter 20130307 01:00"
+}
+]
+}
+},
+{
+"id": 163261,
+"title": "Ekonyheter",
+"description": "Ekot är nyhetsprogrammet i Sveriges Radio som sänder över hela dygnet i de olika radiokanalerna. Hör uppdaterade inrikesnyheter, utrikesnyheter, ekonominyheter och lokala nyheter.",
+"imageurl": "http://sverigesradio.se/diverse/appdata/isidor/images/news_images/83/2186799_512_512.jpg",
+"program": {
+"id": 83,
+"name": "Ekot"
+},
+"publishdateutc": "/Date(1362610800000)/",
+"broadcast": {
+"playlist": {
+"duration": 120,
+"publishdateutc": "/Date(1362610800000)/",
+"id": 4459066,
+"url": "http://sverigesradio.se/api/radio/radio.aspx?type=broadcast&id=4459066&codingformat=.m4a&metafile=asx&quality=hi",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459066_Ekonyheter 20130307 00:00"
+},
+"broadcastfiles": [
+{
+"duration": 120,
+"publishdateutc": "/Date(1362610800000)/",
+"id": 4459066,
+"url": "http://sverigesradio.se/topsy/ljudfil/4459066-hi.m4a",
+"statkey": "webbradio/start/lyssnaigen/83_-83_Ekot/4459066_Ekonyheter 20130307 00:00"
+}
+]
+}
+}
+]
+}
