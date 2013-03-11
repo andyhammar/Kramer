@@ -27,7 +27,7 @@ namespace Kramer.Common.ViewModels
                             Author = "Ekot",
                             Content = "Ekonyheter",
                             Date = DateTime.Now,
-                            Duration = "5:12 min"
+                            Duration = "5:12"
                         },
                     new FeedItem
                         {
@@ -45,7 +45,7 @@ namespace Kramer.Common.ViewModels
 
         public async Task Init()
         {
-            var untilDate = DateTime.Now.Date;
+            var untilDate = DateTime.Now.Date.AddDays(1);
             var fromDate = untilDate.AddDays(-3);
             var url =
                 string.Format(

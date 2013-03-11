@@ -51,8 +51,9 @@ namespace Kramer.Phone
             var feedItem = item as FeedItem;
 
 			BackgroundAudioPlayer.Instance.Track = new AudioTrack(
-                new Uri(feedItem.AudioUri, UriKind.Absolute), feedItem.Title, "ekot", "nyheter",
-                new Uri("http://sverigesradio.se/img/channellogos/srlogga.png", UriKind.Absolute));
+                new Uri(feedItem.AudioUri, UriKind.Absolute), 
+                string.Format("{0} {1}", feedItem.Author, feedItem.Title), feedItem.Content, feedItem.Author,
+                null);
             BackgroundAudioPlayer.Instance.Play();
 
             MainListBox.SelectedIndex = -1;
@@ -61,10 +62,6 @@ namespace Kramer.Phone
         // Load data for the ViewModel Items
         private void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            if (!App.ViewModel.IsDataLoaded)
-            {
-                App.ViewModel.LoadData();
-            }
         }
     }
 
