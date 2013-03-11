@@ -78,9 +78,9 @@ namespace Kramer.Phone
 
         void _vm_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if (e.PropertyName == "Items")
+            if (e.PropertyName == "ErrorText")
             {
-
+                MessageBox.Show(_vm.ErrorText);
             }
         }
 

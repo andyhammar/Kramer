@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -65,62 +66,27 @@ namespace Kramer.Common.ViewModels
         
         public string StatusText { get; set; }
 
+        public string ErrorText { get; set; }
+
         private async Task GetFeedAsync(Uri uri)
         {
             var request = WebRequest.CreateHttp(uri);
             //request.Method = "GET";
-            WebResponse response = await Task.Factory.FromAsync<WebResponse>(request.BeginGetResponse, request.EndGetResponse, null);
 
-            var rootObject = await DeserializeResponse(response);
+            try
+            {
+                WebResponse response = await Task.Factory.FromAsync<WebResponse>(request.BeginGetResponse, request.EndGetResponse, null);
 
-            PopulateItems(rootObject);
-            //var iar = request.BeginGetResponse(new AsyncCallback(Callback), request);
+                var rootObject = await DeserializeResponse(response);
 
-
-
-            //var result = string.Empty;
-            //var deserialized = 
-            //JsonConvert.DeserializeObject<RootObject>(result);
-            //using (var ms = new MemoryStream())
-            //{
-            //    DataContractJsonSerializer djs = new DataContractJsonSerializer(typeof(Req));
-            //    djs.WriteObject(ms, request);
-
-            //    ms.Position = 0;
-            //    string uriString = uri.AbsoluteUri;
-            //    var sr = new StreamReader(ms);
-            //    string payload = sr.ReadToEnd();
-            //    ms.Position = 0;
-
-            //    using (var stream = await request.GetRequestStreamAsync())
-            //    {
-            //        stream.Write(ms.ToArray(), 0, (int)ms.Length);
-            //    }
-            //    try
-            //    {
-            //        WebResponse resp = await request.GetResponseAsync();
-            //        using (var responseStream = resp.GetResponseStream())
-            //        {
-            //            djs = new DataContractJsonSerializer(typeof(Resp));
-            //            return (Resp)djs.ReadObject(responseStream);
-            //        }
-            //    }
-            //    catch (WebException ex)
-            //    {
-            //        // ok, is this a transactional method?
-            //        if (transactional)
-            //            throw new TransactionalMethodFailedException(ex.Status, ex.Message, uriString, payload);
-            //        else
-            //            throw new MethodFailedException(ex.Status, ex.Message);
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        // ok, is this a transactional method?
-            //        if (transactional)
-            //            throw new TransactionalMethodFailedException(WebExceptionStatus.UnknownError, ex.Message, uriString, payload);
-            //        else
-            //            throw new MethodFailedException(WebExceptionStatus.UnknownError, ex.Message);
-            //    }
+                PopulateItems(rootObject);
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e.Message);
+                ErrorText =
+                    "Kunde inte hämta sändningar. Vänligen se till att telefonen har nätanslutning och försök igen.";
+            }
         }
 
         private void PopulateItems(RootObject root)

@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using Kramer.Common;
 using Kramer.Common.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -30,7 +31,7 @@ namespace Kramer
         /// session.  This will be null the first time a page is visited.</param>
         protected override async void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
-            var vm = new MainVm();
+            var vm = new MainVm(new Win8ViewDispatcher());
             await vm.Init();
         }
 
