@@ -47,6 +47,7 @@ namespace Kramer.Common.ViewModels
 
         public async Task Init()
         {
+            SetBusy(BusyMode.LoadingData);
             var untilDate = DateTime.Now.Date.AddDays(1);
             var fromDate = untilDate.AddDays(-3);
             var url =
@@ -55,6 +56,7 @@ namespace Kramer.Common.ViewModels
                     fromDate.ToSwedishDate(),
                     untilDate.ToSwedishDate());
             await GetFeedAsync(new Uri(url, UriKind.Absolute));
+            ClearBusy();
         }
 
         public IEnumerable<FeedItem> Items { get; set; }
@@ -190,6 +192,9 @@ namespace Kramer.Common.ViewModels
             {
                 case BusyMode.StartingPlay:
                     StatusText = "Startar spelning...";
+                    break;
+                case BusyMode.LoadingData:
+                    StatusText = "Hämtar sändningar...";
                     break;
                 default:
                     throw new ArgumentOutOfRangeException("busyMode");

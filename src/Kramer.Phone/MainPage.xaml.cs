@@ -2,6 +2,9 @@
 using System.Diagnostics;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Navigation;
+using System.Windows.Threading;
+using Kramer.Common.Extensions;
 using Kramer.Common.ViewModels;
 using Microsoft.Phone.BackgroundAudio;
 using Microsoft.Phone.Controls;
@@ -40,7 +43,7 @@ namespace Kramer.Phone
                 case PlayState.Shutdown:
                 case PlayState.Error:
                 case PlayState.Stopped:
-                    _vm.ClearBusy();
+                    ClearBusyAfterPlayChange();
                     break;
                 case PlayState.BufferingStarted:
                     break;
@@ -59,6 +62,20 @@ namespace Kramer.Phone
             }
         }
 
+        private void ClearBusyAfterPlayChange()
+        {
+            var timer = new DispatcherTimer
+                {
+                    Interval = TimeSpan.FromMilliseconds(Constants.ClearBusyDelayInMs)
+                };
+            timer.Tick += (sender, e) =>
+                {
+                    timer.Stop();
+                    _vm.ClearBusy();
+                };
+            timer.Start();
+        }
+
         void _vm_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             if (e.PropertyName == "Items")
@@ -70,7 +87,10 @@ namespace Kramer.Phone
         protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
-            await _vm.Init();
+            if (e.NavigationMode != NavigationMode.Back)
+            {
+                await _vm.Init();
+            }
         }
 
         // Handle selection changed on ListBox
@@ -89,9 +109,15 @@ namespace Kramer.Phone
 
             _vm.SetBusy(BusyMode.StartingPlay);
 
+            var uri = new Uri(feedItem.AudioUri, UriKind.Absolute);
+            var title = string.Format("{0} {1} - {2}", 
+                feedItem.Author, 
+                feedItem.Title,
+                feedItem.Date.ToSwedishDate());
+            var subtitle = feedItem.Content;
             BackgroundAudioPlayer.Instance.Track = new AudioTrack(
-                new Uri(feedItem.AudioUri, UriKind.Absolute),
-                string.Format("{0} {1}", feedItem.Author, feedItem.Title), feedItem.Content, feedItem.Author,
+                uri,
+                title, subtitle, feedItem.Author,
                 null, null, EnabledPlayerControls.Pause);
             BackgroundAudioPlayer.Instance.Play();
 

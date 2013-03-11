@@ -2,7 +2,7 @@
 {
     public enum BusyMode
     {
-        StartingPlay
-
+        StartingPlay,
+        LoadingData
     }
 }
