@@ -13,5 +13,11 @@ namespace Kramer.Common.Extensions
         {
             return date.ToString("HH:mm");
         }
+
+        public static string ToMinSecString(this int durationInSecs)
+        {
+            return string.Format("{0} min", 
+                TimeSpan.FromSeconds(durationInSecs).ToString(@"mm\:ss"));
+        }
     }
 }

@@ -20,8 +20,20 @@ namespace Kramer.Common.ViewModels
         {
             Items = new ObservableCollection<FeedItem>(new[]
                 {
-                    new FeedItem {AudioUri = "http://sverigesradio.se/topsy/ljudfil/4464105-hi.m4a", Title = "22:00"},
-                    new FeedItem {AudioUri = "http://sverigesradio.se/topsy/ljudfil/4464093-hi.m4a", Title = "21:00"}
+                    new FeedItem
+                        {
+                            AudioUri = "http://sverigesradio.se/topsy/ljudfil/4464105-hi.m4a", 
+                            Title = "22:00",
+                            Author = "Ekot",
+                            Content = "Ekonyheter",
+                            Date = DateTime.Now,
+                            Duration = "5:12 min"
+                        },
+                    new FeedItem
+                        {
+                            AudioUri = "http://sverigesradio.se/topsy/ljudfil/4464093-hi.m4a", 
+                            Title = "21:00"
+                        }
                 });
         }
 #endif
@@ -113,10 +125,16 @@ namespace Kramer.Common.ViewModels
 
         private FeedItem CreateItem(Episode episode)
         {
+            var localTime = episode.publishdateutc.ToLocalTime();
+            var broadcastfile = episode.broadcast.broadcastfiles.First();
             return new FeedItem
                 {
-                    AudioUri = episode.broadcast.broadcastfiles.First().url,
-                    Title = episode.publishdateutc.ToLocalTime().ToSwedishTime(),
+                    AudioUri = broadcastfile.url,
+                    Title = localTime.ToSwedishTime(),
+                    Date = localTime,
+                    Author = episode.program.name,
+                    Content = episode.title,
+                    Duration = broadcastfile.duration.ToMinSecString()
                 };
         }
 
