@@ -86,6 +86,8 @@ namespace Kramer.Phone
 
         protected override async void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
+            LittleWatson.CheckForPreviousException();
+
             base.OnNavigatedTo(e);
             if (e.NavigationMode != NavigationMode.Back)
             {
