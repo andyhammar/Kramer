@@ -131,5 +131,9 @@ namespace Kramer.Phone
         }
 
         #endregion
+    
+        // ReSharper disable UnusedMember.Local
+        System.Windows.Controls.MediaElement _dummyMediaElementForMarketplaceCapabilities = null;
+        // ReSharper restore UnusedMember.Local
     }
 }

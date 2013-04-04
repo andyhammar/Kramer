@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
-  <App xmlns="" ProductID="{006002a9-6bcb-43d6-8842-829eef8bd3fa}" Title="Ekot" RuntimeType="Silverlight" Version="1.0.0.1" Genre="apps.normal" Author="Andreas Hammar" Description="Lyssna på Ekot i efterhand." Publisher="Andreas Hammar">
+  <App xmlns="" ProductID="{006002a9-6bcb-43d6-8842-829eef8bd3fa}" Title="Ekot" RuntimeType="Silverlight" Version="1.0.2.0" Genre="apps.normal" Author="Andreas Hammar" Description="Lyssna på Ekot i efterhand." Publisher="Andreas Hammar">
     <IconPath IsRelative="true" IsResource="false">Assets\sr-tile-99.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_GAMERSERVICES" />
