@@ -72,6 +72,8 @@ namespace Kramer.Phone
         // This code will not execute when the application is deactivated
         private void Application_Closing(object sender, ClosingEventArgs e)
         {
+            var temp = _dummyMediaElementForMarketplaceCapabilities;
+            _dummyMediaElementForMarketplaceCapabilities = null;
         }
 
         // Code to execute if a navigation fails
@@ -132,8 +134,6 @@ namespace Kramer.Phone
 
         #endregion
     
-        // ReSharper disable UnusedMember.Local
         System.Windows.Controls.MediaElement _dummyMediaElementForMarketplaceCapabilities = null;
-        // ReSharper restore UnusedMember.Local
     }
 }

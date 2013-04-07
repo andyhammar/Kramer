@@ -83,7 +83,7 @@ namespace Kramer.Phone
             {
                 store.DeleteFile(Filename);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
         }
