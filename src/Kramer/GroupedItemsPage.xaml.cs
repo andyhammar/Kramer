@@ -4,6 +4,7 @@ using Kramer.Common.ViewModels;
 using System;
 using System.Collections.Generic;
 using Windows.Media;
+using Windows.UI.ApplicationSettings;
 using Windows.UI.Core;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
@@ -31,8 +32,16 @@ namespace Kramer
             mediaElement.CurrentStateChanged += MediaElement_CurrentStateChanged;
             mediaElement.MediaFailed += mediaElement_MediaFailed;
 
+                        SettingsPane.GetForCurrentView().CommandsRequested += GroupedItemsPage_CommandsRequested;
 
         }
+
+
+        void GroupedItemsPage_CommandsRequested(SettingsPane sender, SettingsPaneCommandsRequestedEventArgs args)
+        {
+            SettingsHelper.AddSettingsCommands(args);
+        }
+        
 
         #region audio magic
 

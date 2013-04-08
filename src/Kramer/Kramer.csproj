@@ -116,6 +116,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Common\DateTimeToDateStringConverter.cs" />
+    <Compile Include="Common\SettingsHelper.cs" />
     <Compile Include="Common\Win8ViewDispatcher.cs" />
     <Compile Include="GroupedItemsPage.xaml.cs">
       <DependentUpon>GroupedItemsPage.xaml</DependentUpon>
