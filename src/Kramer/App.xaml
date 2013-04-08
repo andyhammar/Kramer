@@ -18,7 +18,7 @@
 
             <!-- Application-specific resources -->
 
-            <x:String x:Key="AppName">Kramer</x:String>
+            <x:String x:Key="AppName">Ekot</x:String>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
