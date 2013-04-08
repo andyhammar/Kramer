@@ -163,7 +163,8 @@ namespace Kramer
 
         private void ShowNetworkErrorMessage()
         {
-
+            new MessageDialog(
+                "Kunde inte spela ljudströmmen, vänligen kontrollera att du är nätansluten och försök igen.").ShowAsync();
             //ToastHelper.ShowToast(
             //    AppRes.Get("NoNetworkWarningTitle"),
             //    AppRes.Get("NoNetworkWarningText"));
