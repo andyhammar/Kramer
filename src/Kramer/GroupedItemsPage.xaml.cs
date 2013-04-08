@@ -32,6 +32,7 @@ namespace Kramer
         protected override async void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
             var vm = new MainVm(new Win8ViewDispatcher());
+            DataContext = vm;
             await vm.Init();
         }
 

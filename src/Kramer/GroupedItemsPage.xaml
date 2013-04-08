@@ -305,7 +305,7 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <TextBlock x:Name="Title" Text="{Binding Title}" TextWrapping="Wrap" Style="{StaticResource GroupHeaderTextStyle}"/>
-                <TextBlock x:Name="Duration" Text="{Binding Duration}" Style="{StaticResource GroupHeaderTextStyle}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="{StaticResource PhoneAccentBrush}"/>
+                <TextBlock x:Name="Duration" Text="{Binding Duration}" Style="{StaticResource GroupHeaderTextStyle}" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
                 <TextBlock x:Name="Content" Text="{Binding Content}" Style="{StaticResource CaptionTextStyle}" HorizontalAlignment="Right" Grid.Row="1"/>
                 <TextBlock x:Name="Date" Text="{Binding Date, Converter={StaticResource DateTimeToDateStringConverter}}" Style="{StaticResource CaptionTextStyle}" HorizontalAlignment="Left" Grid.Row="1"/>
             </Grid>
