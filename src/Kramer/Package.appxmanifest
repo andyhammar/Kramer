@@ -4,7 +4,7 @@
   <Properties>
     <DisplayName>Ekot</DisplayName>
     <PublisherDisplayName>Andreas Hammar</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <Logo>Assets\sr-tile-50.png</Logo>
   </Properties>
   <Prerequisites>
     <OSMinVersion>6.2.1</OSMinVersion>
@@ -15,9 +15,9 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Kramer.App">
-      <VisualElements DisplayName="Ekot" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Lyssna på Ekot." ForegroundText="light" BackgroundColor="#464646">
-        <DefaultTile ShowName="allLogos" />
-        <SplashScreen Image="Assets\SplashScreen.png" />
+      <VisualElements DisplayName="Ekot" Logo="Assets\sr-tile-150.png" SmallLogo="Assets\sr-tile-30.png" Description="Lyssna på Ekot." ForegroundText="light" BackgroundColor="#004964">
+        <DefaultTile ShowName="noLogos" />
+        <SplashScreen Image="Assets/logo-full-ekot-620.png" BackgroundColor="#004964" />
         <InitialRotationPreference>
           <Rotation Preference="portrait" />
           <Rotation Preference="landscape" />

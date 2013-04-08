@@ -136,9 +136,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\logo-full-ekot-620.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\sr-tile-150.png" />
+    <Content Include="Assets\sr-tile-30.png" />
+    <Content Include="Assets\sr-tile-50.png" />
     <Content Include="Assets\sr-transparent-huge.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\LightGray.png" />
