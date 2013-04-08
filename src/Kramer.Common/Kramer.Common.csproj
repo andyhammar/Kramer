@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\Program.cs" />
+    <Compile Include="Design\MainVmDesign.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TaskExtensions.cs" />
     <Compile Include="ViewModels\BindableBase.cs" />

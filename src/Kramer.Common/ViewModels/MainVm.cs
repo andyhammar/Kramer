@@ -16,31 +16,7 @@ namespace Kramer.Common.ViewModels
     public class MainVm : BindableBase
     {
         private readonly IViewDispatcher _viewDispatcher;
-#if DEBUG
-        public MainVm()
-        {
-            Items = new ObservableCollection<FeedItem>(new[]
-                {
-                    new FeedItem
-                        {
-                            AudioUri = "http://sverigesradio.se/topsy/ljudfil/4464105-hi.m4a", 
-                            Title = "22:00",
-                            Author = "Ekot",
-                            Content = "Ekonyheter",
-                            Date = DateTime.Now,
-                            Duration = "5:12"
-                        },
-                    new FeedItem
-                        {
-                            AudioUri = "http://sverigesradio.se/topsy/ljudfil/4464093-hi.m4a", 
-                            Title = "21:00"
-                        }
-                });
-            StatusText = "playing...";
-            IsBusy = true;
-        }
-#endif
-
+        
         public MainVm(IViewDispatcher viewDispatcher)
         {
             _viewDispatcher = viewDispatcher;
