@@ -61,7 +61,7 @@ namespace Kramer.Common.ViewModels
             {
                 Debug.WriteLine(e.Message);
                 ErrorText =
-                    "Kunde inte hämta sändningar. Vänligen se till att telefonen har nätanslutning och försök igen.";
+                    "Kunde inte hämta sändningar. Vänligen se till att du har nätanslutning och försök igen.";
             }
         }
 
