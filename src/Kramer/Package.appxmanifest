@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="78e553b3-fd75-4f58-9cd6-805698f8fd67" Publisher="CN=Andreas" Version="1.0.0.0" />
+  <Identity Name="21411AndreasHammar.Ekot" Publisher="CN=FA18167A-309D-4036-BC20-56EAF537BC91" Version="1.0.0.0" />
   <Properties>
     <DisplayName>Ekot</DisplayName>
     <PublisherDisplayName>Andreas Hammar</PublisherDisplayName>
