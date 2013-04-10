@@ -114,6 +114,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\sr-tile-173.png" />
+    <Content Include="Assets\sr-tile-373.png" />
     <Content Include="Assets\sr-tile-99.png" />
     <Content Include="Assets\SR_logotyp.jpg" />
     <Content Include="Background.png">

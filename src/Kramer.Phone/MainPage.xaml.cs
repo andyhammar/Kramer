@@ -8,6 +8,8 @@ using Kramer.Common.Extensions;
 using Kramer.Common.ViewModels;
 using Microsoft.Phone.BackgroundAudio;
 using Microsoft.Phone.Controls;
+using Microsoft.Devices;
+using System.IO;
 
 namespace Kramer.Phone
 {
@@ -112,8 +114,8 @@ namespace Kramer.Phone
             _vm.SetBusy(BusyMode.StartingPlay);
 
             var uri = new Uri(feedItem.AudioUri, UriKind.Absolute);
-            var title = string.Format("{0} {1} - {2}", 
-                feedItem.Author, 
+            var title = string.Format("{0} {1} - {2}",
+                feedItem.Author,
                 feedItem.Title,
                 feedItem.Date.ToSwedishDate());
             var subtitle = feedItem.Content;
@@ -123,6 +125,17 @@ namespace Kramer.Phone
                 null, null, EnabledPlayerControls.Pause);
             BackgroundAudioPlayer.Instance.Play();
 
+            MediaHistoryItem mediaHistoryItem = new MediaHistoryItem();
+
+            //<hubTileImageStream> must be a valid ImageStream.
+            using (var stream = File.OpenRead("/Assets/sr-tile-373.png"))
+            {
+                mediaHistoryItem.ImageStream = stream;
+                mediaHistoryItem.Source = "";
+                mediaHistoryItem.Title = feedItem.Author + " " + feedItem.Title;
+                mediaHistoryItem.PlayerContext.Add("keyString", feedItem.Content);
+                MediaHistory.Instance.NowPlaying = mediaHistoryItem;
+            }
         }
 
         // Load data for the ViewModel Items
