@@ -128,7 +128,8 @@ namespace Kramer.Phone
             MediaHistoryItem mediaHistoryItem = new MediaHistoryItem();
 
             //<hubTileImageStream> must be a valid ImageStream.
-            using (var stream = File.OpenRead("/Assets/sr-tile-373.png"))
+            var res = Application.GetResourceStream(new Uri("/Assets/sr-tile-373.png", UriKind.Relative)) 
+            using (var stream = File.OpenRead(""))
             {
                 mediaHistoryItem.ImageStream = stream;
                 mediaHistoryItem.Source = "";
