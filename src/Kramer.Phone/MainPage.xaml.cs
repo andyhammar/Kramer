@@ -125,17 +125,33 @@ namespace Kramer.Phone
                 null, null, EnabledPlayerControls.Pause);
             BackgroundAudioPlayer.Instance.Play();
 
-            MediaHistoryItem mediaHistoryItem = new MediaHistoryItem();
+            AddNowPlayingToMediaHub(feedItem);
+            AddRecentPlayToMediaHub(feedItem);
+        }
 
-            //<hubTileImageStream> must be a valid ImageStream.
-            var res = Application.GetResourceStream(new Uri("/Assets/sr-tile-373.png", UriKind.Relative)) 
-            using (var stream = File.OpenRead(""))
+        private static void AddNowPlayingToMediaHub(FeedItem feedItem)
+        {
+            var mediaHistoryItem = new MediaHistoryItem();
+            var resourceStream = Application.GetResourceStream(new Uri("Assets/sr-tile-373.png", UriKind.Relative));
+            using (var stream = resourceStream.Stream)
             {
                 mediaHistoryItem.ImageStream = stream;
                 mediaHistoryItem.Source = "";
                 mediaHistoryItem.Title = feedItem.Author + " " + feedItem.Title;
-                mediaHistoryItem.PlayerContext.Add("keyString", feedItem.Content);
                 MediaHistory.Instance.NowPlaying = mediaHistoryItem;
+            }
+        }
+
+        private static void AddRecentPlayToMediaHub(FeedItem feedItem)
+        {
+            var mediaHistoryItem = new MediaHistoryItem();
+            var resourceStream = Application.GetResourceStream(new Uri("Assets/sr-tile-373.png", UriKind.Relative));
+            using (var stream = resourceStream.Stream)
+            {
+                mediaHistoryItem.ImageStream = stream;
+                mediaHistoryItem.Source = "";
+                mediaHistoryItem.Title = feedItem.Author + " " + feedItem.Title;
+                MediaHistory.Instance.WriteRecentPlay(mediaHistoryItem);
             }
         }
 
