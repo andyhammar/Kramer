@@ -29,7 +29,7 @@ namespace Kramer.Common.ViewModels
             var fromDate = untilDate.AddDays(-3);
             var url =
                 string.Format(
-                    "http://api.sr.se/api/v2/episodes/index?programid=83&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json",
+                    "http://api.sr.se/api/v2/episodes/index?programid=4540&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json",
                     fromDate.ToSwedishDate(),
                     untilDate.ToSwedishDate());
             await GetFeedAsync(new Uri(url, UriKind.Absolute));

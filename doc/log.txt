@@ -1,0 +1,5 @@
+2014-07-05
+
+- made work on WP80 (VS2013)
+- re-found new URI from http://api.sr.se/api/v2/news
+
