@@ -27,9 +27,16 @@ namespace Kramer.Common.ViewModels
             SetBusy(BusyMode.LoadingData);
             var untilDate = DateTime.Now.Date.AddDays(1);
             var fromDate = untilDate.AddDays(-3);
+            
+            //ekonomiekot
+            //var URI = "http://api.sr.se/api/v2/episodes/index?programid=178&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json";
+            
+            //ekot
+            var URI = "http://api.sr.se/api/v2/episodes/index?programid=4540&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json";
+            
             var url =
                 string.Format(
-                    "http://api.sr.se/api/v2/episodes/index?programid=4540&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json",
+                    URI,
                     fromDate.ToSwedishDate(),
                     untilDate.ToSwedishDate());
             await GetFeedAsync(new Uri(url, UriKind.Absolute));
