@@ -6,7 +6,7 @@ namespace Kramer.Common.Design
 {
     public class MainVmDesign : MainVm
     {
-        public MainVmDesign() : base(null)
+        public MainVmDesign() : base(null, null)
         {
             Items = new ObservableCollection<FeedItem>(new[]
                 {

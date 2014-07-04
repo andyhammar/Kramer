@@ -197,7 +197,7 @@ namespace Kramer
         /// session.  This will be null the first time a page is visited.</param>
         protected override async void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
-            _vm = new MainVm(new Win8ViewDispatcher());
+            _vm = new MainVm(new Win8ViewDispatcher(), null);
             _vm.PropertyChanged += vm_PropertyChanged;
             DataContext = _vm;
             await _vm.Init();

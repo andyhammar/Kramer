@@ -13,7 +13,7 @@ using System.IO;
 
 namespace Kramer.Phone
 {
-    public partial class MainPage : PhoneApplicationPage
+    public partial class MainPage : PhoneApplicationPage, IPlayService
     {
         private MainVm _vm;
         // Constructor
@@ -23,14 +23,14 @@ namespace Kramer.Phone
 
             // Set the data context of the listbox control to the sample data
             this.Loaded += MainPage_Loaded;
-            _vm = new MainVm(new PhoneViewDispatcher());
+            _vm = new MainVm(new PhoneViewDispatcher(), this);
             _vm.PropertyChanged += _vm_PropertyChanged;
             DataContext = _vm;
 
             BackgroundAudioPlayer.Instance.PlayStateChanged += Instance_PlayStateChanged;
         }
 
-        void Instance_PlayStateChanged(object sender, EventArgs e)
+        private void Instance_PlayStateChanged(object sender, EventArgs e)
         {
             var playerState = BackgroundAudioPlayer.Instance.PlayerState;
             Debug.WriteLine("{0:HH:mm:ss,fff} state: {1}", DateTime.Now, playerState);
@@ -67,18 +67,18 @@ namespace Kramer.Phone
         private void ClearBusyAfterPlayChange()
         {
             var timer = new DispatcherTimer
-                {
-                    Interval = TimeSpan.FromMilliseconds(Constants.ClearBusyDelayInMs)
-                };
+            {
+                Interval = TimeSpan.FromMilliseconds(Constants.ClearBusyDelayInMs)
+            };
             timer.Tick += (sender, e) =>
-                {
-                    timer.Stop();
-                    _vm.ClearBusy();
-                };
+            {
+                timer.Stop();
+                _vm.ClearBusy();
+            };
             timer.Start();
         }
 
-        void _vm_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        private void _vm_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             if (e.PropertyName == "ErrorText")
             {
@@ -109,8 +109,11 @@ namespace Kramer.Phone
 
             MainListBox.SelectedIndex = -1;
 
-            var feedItem = item as FeedItem;
+            PlayItem(item as FeedItem);
+        }
 
+        public void PlayItem(FeedItem feedItem)
+        {
             _vm.SetBusy(BusyMode.StartingPlay);
 
             var uri = new Uri(feedItem.AudioUri, UriKind.Absolute);
@@ -161,3 +164,4 @@ namespace Kramer.Phone
         }
     }
 }
+ 

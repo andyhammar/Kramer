@@ -16,15 +16,35 @@ namespace Kramer.Common.ViewModels
     public class MainVm : BindableBase
     {
         private readonly IViewDispatcher _viewDispatcher;
-        
-        public MainVm(IViewDispatcher viewDispatcher)
+        private readonly IPlayService _playService;
+        private bool _isAutoplaying;
+        private int _autoPlayDurationPreferenceInSeconds;
+        private int _autoPlayDurationPreferenceWindowInHours;
+
+        public MainVm(IViewDispatcher viewDispatcher, IPlayService playService)
         {
             _viewDispatcher = viewDispatcher;
+            _playService = playService;
+            PropertyChanged += MainVm_PropertyChanged;
+        }
+
+        void MainVm_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        {
+            if (e.PropertyName == "Items")
+            {
+                TryAutoPlay();
+            }
         }
 
         public async Task Init()
         {
             SetBusy(BusyMode.LoadingData);
+
+            //todo [Andreas Hammar 2014-07-05 01:23]: read from settings
+            _isAutoplaying = true;
+            _autoPlayDurationPreferenceInSeconds = 180;
+            _autoPlayDurationPreferenceWindowInHours = 2;
+
             var untilDate = DateTime.Now.Date.AddDays(1);
             var fromDate = untilDate.AddDays(-3);
             
@@ -40,7 +60,33 @@ namespace Kramer.Common.ViewModels
                     fromDate.ToSwedishDate(),
                     untilDate.ToSwedishDate());
             await GetFeedAsync(new Uri(url, UriKind.Absolute));
+
             ClearBusy();
+        }
+
+        private void TryAutoPlay()
+        {
+            try
+            {
+                if (!_isAutoplaying)
+                    return;
+
+                var eligableDateTimeCutoff = DateTime.Now.AddHours(-_autoPlayDurationPreferenceWindowInHours);
+                var eligableItems = Items.Where(x => x.Date > eligableDateTimeCutoff);
+
+                var item = eligableItems.FirstOrDefault();
+
+                if (item == null)
+                    return;
+
+                _playService.PlayItem(item);
+
+            }
+            catch (Exception exc)
+            {
+                //todo [Andreas Hammar 2014-07-05 01:44]: log error somehow
+                return;
+            }
         }
 
         public IEnumerable<FeedItem> Items { get; set; }
