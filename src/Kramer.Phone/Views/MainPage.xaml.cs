@@ -6,12 +6,11 @@ using System.Windows.Navigation;
 using System.Windows.Threading;
 using Kramer.Common.Extensions;
 using Kramer.Common.ViewModels;
+using Microsoft.Devices;
 using Microsoft.Phone.BackgroundAudio;
 using Microsoft.Phone.Controls;
-using Microsoft.Devices;
-using System.IO;
 
-namespace Kramer.Phone
+namespace Kramer.Phone.Views
 {
     public partial class MainPage : PhoneApplicationPage, IPlayService
     {
@@ -161,6 +160,11 @@ namespace Kramer.Phone
         // Load data for the ViewModel Items
         private void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
+        }
+
+        private void ApplicationBarIconButton_OnClick(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Views/SettingsPage.xaml", UriKind.RelativeOrAbsolute));
         }
     }
 }
