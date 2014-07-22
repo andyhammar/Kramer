@@ -81,7 +81,7 @@
 
         <Border BorderBrush="Black" Grid.RowSpan="2" Background="{StaticResource PhoneAccentBrush}" Height="532" Opacity="0.16" HorizontalAlignment="Center" Width="960" VerticalAlignment="Bottom">
             <Border.OpacityMask>
-                <ImageBrush Stretch="Uniform" ImageSource="Assets/sr-transparent-480.png"/>
+                <ImageBrush Stretch="Uniform" ImageSource="/Kramer.Phone;component/Assets/sr-transparent-480.png"/>
             </Border.OpacityMask>
         </Border>
 
@@ -89,7 +89,7 @@
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
             <Border BorderBrush="Black" Height="59" Background="{StaticResource PhoneAccentBrush}" Margin="12,0,120,0">
                 <Border.OpacityMask>
-                    <ImageBrush Stretch="Uniform" ImageSource="Assets/SR_logotyp_tight.png"/>
+                    <ImageBrush Stretch="Uniform" ImageSource="/Kramer.Phone;component/Assets/SR_logotyp_tight.png"/>
                 </Border.OpacityMask>
             </Border>
             <TextBlock x:Name="PageTitle" Text="inställningar" Margin="9,0,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
