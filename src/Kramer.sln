@@ -1,18 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kramer", "Kramer\Kramer.csproj", "{C3533C91-F8AF-4B4C-A32B-510EAB79D186}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kramer.Common", "Kramer.Common\Kramer.Common.csproj", "{4D646ECD-8AF3-426E-B0DC-0786F0E40754}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kramer.Phone", "Kramer.Phone\Kramer.Phone.csproj", "{006002A9-6BCB-43D6-8842-829EEF8BD3FA}"
-EndProject
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E9E9AAA2-35B6-40A2-BC6B-3AE710D33854}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kramer", "Kramer\Kramer.csproj", "{C3533C91-F8AF-4B4C-A32B-510EAB79D186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kramer.Common", "Kramer.Common\Kramer.Common.csproj", "{4D646ECD-8AF3-426E-B0DC-0786F0E40754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kramer.Phone", "Kramer.Phone\Kramer.Phone.csproj", "{006002A9-6BCB-43D6-8842-829EEF8BD3FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kramer.AudioAgent", "Kramer.AudioAgent\Kramer.AudioAgent.csproj", "{ACC3A312-D787-4A8B-9ADD-01684005925E}"
 EndProject
