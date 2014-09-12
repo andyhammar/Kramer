@@ -19,9 +19,6 @@ namespace Kramer.Common.ViewModels
         private readonly IViewDispatcher _viewDispatcher;
         private readonly IPlayService _playService;
         private readonly IAppSettings _appSettings;
-        private bool _isAutoplaying;
-        private int _autoPlayDurationPreferenceInSeconds;
-        private int _autoPlayDurationPreferenceWindowInHours;
 
         public MainVm(IViewDispatcher viewDispatcher, IPlayService playService, IAppSettings appSettings)
         {
@@ -44,9 +41,6 @@ namespace Kramer.Common.ViewModels
             SetBusy(BusyMode.LoadingData);
 
             //todo [Andreas Hammar 2014-07-05 01:23]: read from settings
-            _isAutoplaying = true;
-            _autoPlayDurationPreferenceInSeconds = 180;
-            _autoPlayDurationPreferenceWindowInHours = 2;
 
             var untilDate = DateTime.Now.Date.AddDays(1);
             var fromDate = untilDate.AddDays(-3);
@@ -71,13 +65,19 @@ namespace Kramer.Common.ViewModels
         {
             try
             {
-                if (!_isAutoplaying)
+                if (!_appSettings.IsAutoPlaying)
                     return;
 
-                var eligableDateTimeCutoff = DateTime.Now.AddHours(-_autoPlayDurationPreferenceWindowInHours);
-                var eligableItems = Items.Where(x => x.Date > eligableDateTimeCutoff);
+                var eligableDateTimeCutoff = DateTime.Now.AddHours(-_appSettings.AutoPlayMaxAgeInHours);
+                var newEnoughItems = Items.Where(x => x.Date > eligableDateTimeCutoff);
 
-                var item = eligableItems.FirstOrDefault();
+                var itemsWithinCorrectRange = newEnoughItems.Where(x =>
+                {
+                    var durationInMinutes = TimeSpan.Parse("00:" + x.Duration).TotalMinutes;
+                    return _appSettings.AutoPlayRangeMinInMinutes <= durationInMinutes
+                           && _appSettings.AutoPlayRangeMaxInMinutes >= durationInMinutes;
+                });
+                var item = itemsWithinCorrectRange.FirstOrDefault();
 
                 if (item == null)
                     return;
