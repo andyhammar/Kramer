@@ -4,21 +4,7 @@
   <App xmlns="" ProductID="{43a60377-2dfd-4f82-8b2b-1354070b1542}" Title="Swedish Economy Echo" RuntimeType="Silverlight" Version="1.0.3.0" Genre="apps.normal" Author="Andreas Hammar" Description="Lyssna på Ekonomiekot i efterhand." Publisher="Andreas Hammar" PublisherID="{40d39331-b281-4fe9-a5a3-ad8c4a7acbc0}">
     <IconPath IsRelative="true" IsResource="false">Assets\sr-tile-99.png</IconPath>
     <Capabilities>
-      <Capability Name="ID_CAP_GAMERSERVICES" />
-      <Capability Name="ID_CAP_IDENTITY_DEVICE" />
-      <Capability Name="ID_CAP_IDENTITY_USER" />
-      <Capability Name="ID_CAP_LOCATION" />
-      <Capability Name="ID_CAP_MICROPHONE" />
       <Capability Name="ID_CAP_NETWORKING" />
-      <Capability Name="ID_CAP_PHONEDIALER" />
-      <Capability Name="ID_CAP_PUSH_NOTIFICATION" />
-      <Capability Name="ID_CAP_SENSORS" />
-      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
-      <Capability Name="ID_CAP_ISV_CAMERA" />
-      <Capability Name="ID_CAP_CONTACTS" />
-      <Capability Name="ID_CAP_APPOINTMENTS" />
-      <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
-      <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
       <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
     </Capabilities>
     <Tasks>
