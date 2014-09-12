@@ -46,6 +46,18 @@
             }
         }
 
+        public int AutoPlayMaxAgeInHours
+        {
+            get
+            {
+                return GetValueOrDefault("Apma", 3);
+            }
+            set
+            {
+                _store.Set("Apma", value);
+            }
+        }
+
         private static T GetValueOrDefault<T>(string key, T defaultValue)
         {
             if (_store.HasKey(key))
