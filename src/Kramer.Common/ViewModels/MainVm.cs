@@ -46,10 +46,10 @@ namespace Kramer.Common.ViewModels
             var fromDate = untilDate.AddDays(-3);
             
             //ekonomiekot
-            //var URI = "http://api.sr.se/api/v2/episodes/index?programid=178&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json";
+            var URI = "http://api.sr.se/api/v2/episodes/index?programid=178&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json";
             
             //ekot
-            var URI = "http://api.sr.se/api/v2/episodes/index?programid=4540&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json";
+            //var URI = "http://api.sr.se/api/v2/episodes/index?programid=4540&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json";
             
             var url =
                 string.Format(
