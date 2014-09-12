@@ -2,6 +2,10 @@
 {
     public class AppSettings : IAppSettings
     {
+        private const bool DefaultIsAutoPlaying = true;
+        private const int DefaultAprMin = 0;
+        private const int DefaultAprMax = 5;
+        private const int DefaultApma = 3;
         private static ISettingsStore _store;
 
         public static void Init(ISettingsStore store)
@@ -14,7 +18,7 @@
         {
             get
             {
-                return GetValueOrDefault("IsAutoPlaying", true);
+                return GetValueOrDefault("IsAutoPlaying", DefaultIsAutoPlaying);
             }
             set
             {
@@ -26,7 +30,7 @@
         {
             get
             {
-                return GetValueOrDefault("AprMin", 0);
+                return GetValueOrDefault("AprMin", DefaultAprMin);
             }
             set
             {
@@ -38,7 +42,7 @@
         {
             get
             {
-                return GetValueOrDefault("AprMax", 5);
+                return GetValueOrDefault("AprMax", DefaultAprMax);
             }
             set
             {
@@ -50,7 +54,7 @@
         {
             get
             {
-                return GetValueOrDefault("Apma", 3);
+                return GetValueOrDefault("Apma", DefaultApma);
             }
             set
             {
