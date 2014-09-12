@@ -66,6 +66,7 @@
     <Compile Include="Design\MainVmDesign.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings\AppSettings.cs" />
+    <Compile Include="Settings\IAppSettings.cs" />
     <Compile Include="Settings\ISettingsStore.cs" />
     <Compile Include="TaskExtensions.cs" />
     <Compile Include="ViewModels\BindableBase.cs" />

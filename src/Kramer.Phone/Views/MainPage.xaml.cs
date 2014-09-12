@@ -5,6 +5,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using System.Windows.Threading;
 using Kramer.Common.Extensions;
+using Kramer.Common.Settings;
 using Kramer.Common.ViewModels;
 using Microsoft.Devices;
 using Microsoft.Phone.BackgroundAudio;
@@ -22,7 +23,7 @@ namespace Kramer.Phone.Views
 
             // Set the data context of the listbox control to the sample data
             this.Loaded += MainPage_Loaded;
-            _vm = new MainVm(new PhoneViewDispatcher(), this);
+            _vm = new MainVm(new PhoneViewDispatcher(), this, new AppSettings());
             _vm.PropertyChanged += _vm_PropertyChanged;
             DataContext = _vm;
 

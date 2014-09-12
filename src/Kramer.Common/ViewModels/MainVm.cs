@@ -9,6 +9,7 @@ using System.Runtime.Serialization.Json;
 using System.Threading.Tasks;
 using Kramer.Common.Api;
 using Kramer.Common.Extensions;
+using Kramer.Common.Settings;
 using Newtonsoft.Json;
 
 namespace Kramer.Common.ViewModels
@@ -17,14 +18,16 @@ namespace Kramer.Common.ViewModels
     {
         private readonly IViewDispatcher _viewDispatcher;
         private readonly IPlayService _playService;
+        private readonly IAppSettings _appSettings;
         private bool _isAutoplaying;
         private int _autoPlayDurationPreferenceInSeconds;
         private int _autoPlayDurationPreferenceWindowInHours;
 
-        public MainVm(IViewDispatcher viewDispatcher, IPlayService playService)
+        public MainVm(IViewDispatcher viewDispatcher, IPlayService playService, IAppSettings appSettings)
         {
             _viewDispatcher = viewDispatcher;
             _playService = playService;
+            _appSettings = appSettings;
             PropertyChanged += MainVm_PropertyChanged;
         }
 

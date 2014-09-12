@@ -1,10 +1,10 @@
 ﻿namespace Kramer.Common.Settings
 {
-    public class AppSettings
+    public class AppSettings : IAppSettings
     {
         private static ISettingsStore _store;
 
-        static void Init(ISettingsStore store)
+        public static void Init(ISettingsStore store)
         {
             _store = store;
         }
