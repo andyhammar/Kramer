@@ -4,8 +4,8 @@
     {
         private const bool DefaultIsAutoPlaying = true;
         private const int DefaultAprMin = 0;
-        private const int DefaultAprMax = 5;
-        private const int DefaultApma = 3;
+        private const int DefaultAprMax = 10;
+        private const int DefaultApma = 12;
         private static ISettingsStore _store;
 
         public static void Init(ISettingsStore store)
