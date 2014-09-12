@@ -10,6 +10,18 @@
         }
 
 
+        public bool IsAutoPlaying
+        {
+            get
+            {
+                return GetValueOrDefault("IsAutoPlaying", true);
+            }
+            set
+            {
+                _store.Set("IsAutoPlaying", value);
+            }
+        }
+
         public int AutoPlayRangeMinInMinutes
         {
             get
@@ -31,18 +43,6 @@
             set
             {
                 _store.Set("AprMax", value);
-            }
-        }
-
-        public bool IsAutoPlaying
-        {
-            get
-            {
-                return GetValueOrDefault("IsAutoPlaying", true);
-            }
-            set
-            {
-                _store.Set("IsAutoPlaying", value);
             }
         }
 
