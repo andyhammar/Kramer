@@ -4,7 +4,7 @@
   <Languages xmlns="">
     <Language code="sv-SE" />
   </Languages>
-  <App xmlns="" ProductID="{43a60377-2dfd-4f82-8b2b-1354070b1542}" Title="Swedish Echo Economy" RuntimeType="Silverlight" Version="1.0.3.0" Genre="apps.normal" Author="Andreas Hammar" Description="Lyssna på Ekonomiekot i efterhand." Publisher="Andreas Hammar" PublisherID="{40d39331-b281-4fe9-a5a3-ad8c4a7acbc0}">
+  <App xmlns="" ProductID="{43a60377-2dfd-4f82-8b2b-1354070b1542}" Title="Swedish Economy" RuntimeType="Silverlight" Version="1.0.3.0" Genre="apps.normal" Author="Andreas Hammar" Description="Lyssna på Ekonomiekot i efterhand." Publisher="Andreas Hammar" PublisherID="{40d39331-b281-4fe9-a5a3-ad8c4a7acbc0}">
     <IconPath IsRelative="true" IsResource="false">Assets\sr-tile-99.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
