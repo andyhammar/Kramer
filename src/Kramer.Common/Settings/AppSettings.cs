@@ -1,0 +1,58 @@
+﻿namespace Kramer.Common.Settings
+{
+    public class AppSettings
+    {
+        private static ISettingsStore _store;
+
+        static void Init(ISettingsStore store)
+        {
+            _store = store;
+        }
+
+
+        public int AutoPlayRangeMinInMinutes
+        {
+            get
+            {
+                return GetValueOrDefault("AprMin", 0);
+            }
+            set
+            {
+                _store.Set("AprMin", value);
+            }
+        }
+
+        public int AutoPlayRangeMaxInMinutes
+        {
+            get
+            {
+                return GetValueOrDefault("AprMax", 5);
+            }
+            set
+            {
+                _store.Set("AprMax", value);
+            }
+        }
+
+        public bool IsAutoPlaying
+        {
+            get
+            {
+                return GetValueOrDefault("IsAutoPlaying", true);
+            }
+            set
+            {
+                _store.Set("IsAutoPlaying", value);
+            }
+        }
+
+        private static T GetValueOrDefault<T>(string key, T defaultValue)
+        {
+            if (_store.HasKey(key))
+            {
+                return (T) _store.Get(key);
+            }
+            return defaultValue;
+        }
+    }
+}

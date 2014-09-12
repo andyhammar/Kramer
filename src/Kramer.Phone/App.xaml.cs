@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.IO.IsolatedStorage;
+using System.Windows;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
@@ -20,6 +21,10 @@ namespace Kramer.Phone
         {
             // Global handler for uncaught exceptions. 
             UnhandledException += Application_UnhandledException;
+
+
+            var settings = IsolatedStorageSettings.ApplicationSettings;
+
 
             // Standard Silverlight initialization
             InitializeComponent();
