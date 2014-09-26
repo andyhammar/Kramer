@@ -7,6 +7,7 @@
 
     <!--Application Resources-->
     <Application.Resources>
+        <SolidColorBrush x:Key="SubtleTestBrush" Color="#FF979797"/>
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>
