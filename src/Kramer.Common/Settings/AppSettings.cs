@@ -13,7 +13,6 @@
             _store = store;
         }
 
-
         public bool IsAutoPlaying
         {
             get
