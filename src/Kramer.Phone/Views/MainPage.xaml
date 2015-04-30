@@ -123,12 +123,12 @@
         </Grid>
     </Grid>
 
-    <phone:PhoneApplicationPage.ApplicationBar>
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar>
             <shell:ApplicationBarIconButton
                 IconUri="/Assets/AppBar/feature.settings.png"
                 Text="Inställningar"
                 Click="ApplicationBarIconButton_OnClick"/>
         </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
 </phone:PhoneApplicationPage>
