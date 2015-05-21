@@ -2,7 +2,7 @@
 {
     public class AppSettings : IAppSettings
     {
-        private const bool DefaultIsAutoPlaying = true;
+        private const bool DefaultIsAutoPlaying = false;
         private const int DefaultAprMin = 0;
         private const int DefaultAprMax = 10;
         private const int DefaultApma = 12;
