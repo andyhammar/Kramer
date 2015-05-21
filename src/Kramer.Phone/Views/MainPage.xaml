@@ -1,5 +1,4 @@
-﻿<phone:PhoneApplicationPage 
-    xmlns:windowsPhone8="clr-namespace:Microsoft.AdMediator.WindowsPhone8;assembly=Microsoft.AdMediator.WindowsPhone8" 
+﻿<phone:PhoneApplicationPage
     x:Class="Kramer.Phone.Views.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -18,7 +17,7 @@
     shell:SystemTray.IsVisible="True"
     d:DataContext="{d:DesignInstance Type=design:MainVmDesign, IsDesignTimeCreatable=true}"
     >
-    <shell:SystemTray.ProgressIndicator>    
+    <shell:SystemTray.ProgressIndicator>
 
         <shell:ProgressIndicator 
             IsIndeterminate="{Binding IsBusy}"
@@ -27,7 +26,7 @@
     </shell:SystemTray.ProgressIndicator>
 
     <phone:PhoneApplicationPage.Resources>
-
+        
         <converters:DateTimeToDateStringConverter x:Key="DateTimeToDateStringConverter"/>
         <Style x:Key="ListBoxItemStyle1" TargetType="ListBoxItem">
             <Setter Property="Background" Value="Transparent"/>
@@ -77,12 +76,11 @@
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="483*"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <Border BorderBrush="Black" Grid.RowSpan="2" Background="{StaticResource PhoneAccentBrush}" Height="532" Opacity="0.16" HorizontalAlignment="Center" Width="960" VerticalAlignment="Bottom" Margin="-240,0" Grid.Row="1">
+        <Border BorderBrush="Black" Grid.RowSpan="2" Background="{StaticResource PhoneAccentBrush}" Height="532" Opacity="0.16" HorizontalAlignment="Center" Width="960" VerticalAlignment="Bottom">
             <Border.OpacityMask>
                 <ImageBrush Stretch="Uniform" ImageSource="/Kramer.Phone;component/Assets/sr-transparent-480.png"/>
             </Border.OpacityMask>
@@ -99,8 +97,7 @@
         </StackPanel>
 
         <!--ContentPanel contains ListBox and ListBox ItemTemplate. Place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" 
-              Margin="12,0,12,0">
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <ListBox x:Name="MainListBox" Margin="0,0,-12,0" 
                      ItemsSource="{Binding Items}" 
 					 SelectionChanged="MainListBox_SelectionChanged" 
@@ -124,12 +121,6 @@
                 </ListBox.ItemTemplate>
             </ListBox>
         </Grid>
-        <windowsPhone8:AdMediatorControl 
-            Id="AdMediator-Bottom"
-            x:Name="AdMediator"
-            Height="80"  Grid.Row="2"
-            HorizontalAlignment="Stretch"
-            />
     </Grid>
 
     <!--<phone:PhoneApplicationPage.ApplicationBar>
