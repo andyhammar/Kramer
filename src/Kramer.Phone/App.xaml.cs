@@ -4,11 +4,17 @@ using System.Windows.Navigation;
 using Kramer.Common.Settings;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using Microsoft.ApplicationInsights;
 
 namespace Kramer.Phone
 {
     public partial class App : Application
     {
+        /// <summary>
+        /// Allows tracking page views, exceptions and other telemetry through the Microsoft Application Insights service.
+        /// </summary>
+        public static TelemetryClient TelemetryClient;
+
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>
@@ -20,6 +26,8 @@ namespace Kramer.Phone
         /// </summary>
         public App()
         {
+            TelemetryClient = new TelemetryClient();
+
             // Global handler for uncaught exceptions. 
             UnhandledException += Application_UnhandledException;
 
