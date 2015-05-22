@@ -5,7 +5,7 @@ namespace Kramer.Phone.Views
 {
     public partial class SettingsPage : PhoneApplicationPage
     {
-        private MainVm _vm;
+        //private MainVm _vm;
         // Constructor
         public SettingsPage()
         {

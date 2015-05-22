@@ -85,7 +85,7 @@ namespace Kramer.Common.ViewModels
                 _playService.PlayItem(item);
 
             }
-            catch (Exception exc)
+            catch (Exception)
             {
                 //todo [Andreas Hammar 2014-07-05 01:44]: log error somehow
                 return;
