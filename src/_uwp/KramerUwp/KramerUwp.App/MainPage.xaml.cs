@@ -14,16 +14,15 @@ namespace KramerUwp.App
         public MainPage()
         {
             this.InitializeComponent();
+
+            //if (DesignMode.DesignModeEnabled)
+            //{
+                _vm.Episodes.Add(new EpisodeItemVm() { LengthInMinutes = "5", Time = "09:00" });
+            //}
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            if (DesignMode.DesignModeEnabled)
-            {
-                _vm.Episodes.Add(new EpisodeItemVm() { LengthInMinutes = "5", Time = "09:00" });
-
-
-            }
         }
     }
 }

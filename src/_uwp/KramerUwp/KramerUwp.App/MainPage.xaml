@@ -5,7 +5,8 @@
     xmlns:local="using:KramerUwp.App"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    d:DataContext="{d:DesignInstance Type=local:MainPageVm, IsDesignTimeCreatable=True}">
     <Page.DataContext>
         <local:MainPageVm x:Name="_vm"/>
     </Page.DataContext>
@@ -18,22 +19,28 @@
             </Grid.RowDefinitions>
             <TextBlock Text="Ekot" FontSize="48"
                        Margin="0,0,0,20"/>
-            <ListBox 
+            <ListBox
+                Background="White"
                 ItemsSource="{Binding Episodes}"
                 Grid.Row="1"
                 x:Name="_list">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
-                        <RelativePanel>
+                        <RelativePanel 
+                            Width="360"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch" d:DesignWidth="370.609" d:DesignHeight="135.478">
                             <TextBlock 
-                                x:Name="TitleText"/>
+                                x:Name="LengthText"
+                                Text="{Binding LengthInMinutes, FallbackValue=5}" 
+                                RelativePanel.AlignRightWithPanel="True"/>
                             <TextBlock
                                 x:Name="TimeText"
-                                RelativePanel.AlignRightWithPanel="True"/>
+                                RelativePanel.AlignRightWithPanel="False"
+                                Text="{Binding Time, FallbackValue=09:00}"/>
                         </RelativePanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
-                </ListBox>
+            </ListBox>
         </Grid>
     </Border>
 </Page>
