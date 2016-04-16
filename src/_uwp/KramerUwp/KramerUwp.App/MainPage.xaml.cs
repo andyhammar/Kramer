@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
+using Windows.Media;
 using Windows.Media.Playback;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
@@ -27,6 +28,26 @@ namespace KramerUwp.App
             player.CurrentStateChanged += Player_CurrentStateChanged;
             player.BufferingEnded += Player_BufferingEnded;
             player.BufferingStarted += Player_BufferingStarted;
+            player.SystemMediaTransportControls.IsEnabled = true;
+            player.SystemMediaTransportControls.IsPauseEnabled = true;
+            player.SystemMediaTransportControls.IsPlayEnabled = true;
+            player.SystemMediaTransportControls.ButtonPressed += SystemMediaTransportControls_ButtonPressed;
+        }
+
+        private void SystemMediaTransportControls_ButtonPressed(
+            Windows.Media.SystemMediaTransportControls sender,
+            Windows.Media.SystemMediaTransportControlsButtonPressedEventArgs args)
+        {
+            if (args.Button == SystemMediaTransportControlsButton.Pause)
+            {
+                BackgroundMediaPlayer.Current.Pause();
+            }
+            else if (args.Button == SystemMediaTransportControlsButton.Play)
+            {
+                BackgroundMediaPlayer.Current.Play();
+            }
+
+
         }
 
         private async void Player_BufferingStarted(MediaPlayer sender, object args)
