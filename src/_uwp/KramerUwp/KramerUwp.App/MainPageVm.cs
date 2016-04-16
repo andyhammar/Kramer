@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.Media.Playback;
 using KramerUwp.App.Api;
+using Newtonsoft.Json;
 
 namespace KramerUwp.App
 {
@@ -60,9 +61,8 @@ namespace KramerUwp.App
         private async Task<RootObject> GetFeedAsync(string uri)
         {
             var json = await new HttpClient().GetStringAsync(uri);
-
-            //todo deserialize for real
-            return new RootObject() { copyright = json };
+            var root = JsonConvert.DeserializeObject<RootObject>(json);
+            return root;
         }
 
         private EpisodeItemVm CreateItem(Episode episode)

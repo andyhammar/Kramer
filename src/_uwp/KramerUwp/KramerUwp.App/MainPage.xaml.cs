@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.Media.Playback;
+using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
@@ -28,19 +29,19 @@ namespace KramerUwp.App
             player.BufferingStarted += Player_BufferingStarted;
         }
 
-        private void Player_BufferingStarted(MediaPlayer sender, object args)
+        private async void Player_BufferingStarted(MediaPlayer sender, object args)
         {
             Debug.WriteLine("buffering started");
-            NowPlayingStatusText.Text = "buffering...";
+            await OnDispatcher(() => NowPlayingStatusText.Text = "buffering...");
         }
 
-        private void Player_BufferingEnded(MediaPlayer sender, object args)
+        private async void Player_BufferingEnded(MediaPlayer sender, object args)
         {
             Debug.WriteLine("buffering ended");
-            NowPlayingStatusText.Text = "";
+            await OnDispatcher(() => NowPlayingStatusText.Text = "");
         }
 
-        private void Player_CurrentStateChanged(MediaPlayer sender, object args)
+        private async void Player_CurrentStateChanged(MediaPlayer sender, object args)
         {
             string status = string.Empty;
             switch (sender.CurrentState)
@@ -48,6 +49,7 @@ namespace KramerUwp.App
                 case MediaPlayerState.Closed:
                     break;
                 case MediaPlayerState.Opening:
+                    status = "Opening...";
                     break;
                 case MediaPlayerState.Buffering:
                     break;
@@ -60,7 +62,13 @@ namespace KramerUwp.App
                 default:
                     throw new ArgumentOutOfRangeException();
             }
-            NowPlayingStatusText.Text = status;
+
+            await OnDispatcher(() => NowPlayingStatusText.Text = status);
+        }
+
+        private async Task OnDispatcher(Action action)
+        {
+            await Dispatcher.RunAsync(CoreDispatcherPriority.Normal, action.Invoke);
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
