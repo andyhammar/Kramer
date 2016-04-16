@@ -42,7 +42,7 @@ namespace KramerUwp.App
 
         private void Player_CurrentStateChanged(MediaPlayer sender, object args)
         {
-            string status;
+            string status = string.Empty;
             switch (sender.CurrentState)
             {
                 case MediaPlayerState.Closed:
