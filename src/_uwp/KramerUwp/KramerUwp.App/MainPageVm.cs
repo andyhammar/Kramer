@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.ApplicationModel;
 using Windows.ApplicationModel.Contacts;
 using Windows.Media.Audio;
 using Windows.Web.Syndication;
@@ -16,6 +17,12 @@ namespace KramerUwp.App
         public MainPageVm()
         {
             Episodes = new ObservableCollection<EpisodeItemVm>();
+            if (DesignMode.DesignModeEnabled)
+            {
+                Episodes.Add(new EpisodeItemVm() { LengthInMinutes = "5", Time = "09:00" });
+                Episodes.Add(new EpisodeItemVm() { LengthInMinutes = "3", Time = "15:00" });
+                Episodes.Add(new EpisodeItemVm() { LengthInMinutes = "15", Time = "22:00" });
+            }
         }
 
         public async Task Init()
