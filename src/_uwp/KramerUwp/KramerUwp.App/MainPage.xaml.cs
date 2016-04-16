@@ -1,4 +1,5 @@
-﻿using Windows.ApplicationModel;
+﻿using System.Linq;
+using Windows.ApplicationModel;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
@@ -18,8 +19,14 @@ namespace KramerUwp.App
          
     }
 
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
+            await _vm.InitAsync();
+        }
+
+        private async void _list_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            await _vm.PlayAsync(e.AddedItems.FirstOrDefault() as EpisodeItemVm);
         }
     }
 }

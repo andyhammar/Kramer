@@ -129,7 +129,7 @@
                 Background="White"
                 ItemsSource="{Binding Episodes}"
                 Grid.Row="1"
-                x:Name="_list" ItemContainerStyle="{StaticResource ListBoxItemStyle1}">
+                x:Name="_list" ItemContainerStyle="{StaticResource ListBoxItemStyle1}" SelectionChanged="_list_SelectionChanged">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <RelativePanel>
