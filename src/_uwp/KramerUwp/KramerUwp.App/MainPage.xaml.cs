@@ -93,7 +93,11 @@ namespace KramerUwp.App
 
         private async void _list_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (_list.SelectedIndex == -1)
+                return;
             var episodeItemVm = e.AddedItems.FirstOrDefault() as EpisodeItemVm;
+            _list.SelectedIndex = -1;
+
             if (episodeItemVm == null)
                 return;
             await _vm.PlayAsync(episodeItemVm);
