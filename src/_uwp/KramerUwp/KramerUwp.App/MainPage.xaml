@@ -124,19 +124,21 @@
     <Page.DataContext>
         <local:MainPageVm x:Name="_vm"/>
     </Page.DataContext>
-    <Border Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Grid >
+    <Border Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,48">
+        <Grid Margin="10,0,0,0" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <TextBlock Text="Ekot" FontSize="48"
-                       Margin="10,0,0,20"/>
+                       Margin="0,0,0,20"/>
             <ListBox
                 Background="White"
                 ItemsSource="{Binding Episodes}"
                 Grid.Row="1"
-                x:Name="_list" ItemContainerStyle="{StaticResource ListBoxItemStyle1}" SelectionChanged="_list_SelectionChanged">
+                x:Name="_list" ItemContainerStyle="{StaticResource ListBoxItemStyle1}" SelectionChanged="_list_SelectionChanged" Margin="-10,0,0,0">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <RelativePanel>
@@ -158,7 +160,7 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            <RelativePanel Grid.Row="1"
+            <RelativePanel x:Name="BusyPanel" Grid.Row="1"
             		HorizontalAlignment="Center"
             		VerticalAlignment="Center">
                 <TextBlock x:Name="StatusText"
@@ -168,6 +170,9 @@
                            RelativePanel.AlignHorizontalCenterWithPanel="True"   
                               x:Name="ProgressRing" IsActive="True"/>
             </RelativePanel>
+            <TextBlock Grid.Row="2" Text="Now playing:"/>
+            <TextBlock Grid.Row="3" x:Name="PlayingStatusText" Text="-"/>
+            
         </Grid>
     </Border>
 </Page>
