@@ -159,10 +159,16 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            <TextBlock x:Name="StatusText"
-                       Grid.Row="1"
-                       HorizontalAlignment="Center"
-                       VerticalAlignment="Center"/>
+            <RelativePanel Grid.Row="1"
+            		HorizontalAlignment="Center"
+            		VerticalAlignment="Center">
+                <TextBlock x:Name="StatusText"
+                           RelativePanel.Below="ProgressRing"
+                           RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+                <ProgressRing Height="20" Width="20"
+                           RelativePanel.AlignHorizontalCenterWithPanel="True"   
+                              x:Name="ProgressRing" IsActive="True"/>
+            </RelativePanel>
         </Grid>
     </Border>
 </Page>

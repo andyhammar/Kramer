@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
+using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
@@ -18,9 +19,8 @@ namespace KramerUwp.App
         public MainPage()
         {
             this.InitializeComponent();
-
-         
-    }
+            ClearBusy();
+        }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -33,7 +33,7 @@ namespace KramerUwp.App
             {
                 ShowBusy("Getting episodes...");
                 await _vm.InitAsync();
-                ShowBusy(string.Empty);
+                ClearBusy();
             }
             catch (Exception exception)
             {
@@ -49,11 +49,18 @@ namespace KramerUwp.App
 
         private void ShowBusy(string text)
         {
+            ProgressRing.IsActive = true;
             StatusText.Text = text;
         }
 
+        private void ClearBusy()
+        {
+            StatusText.Text = string.Empty;
+            ProgressRing.IsActive = false;
+        }
         private void ShowError(string text)
         {
+            ClearBusy();
             StatusText.Text = text;
         }
 
