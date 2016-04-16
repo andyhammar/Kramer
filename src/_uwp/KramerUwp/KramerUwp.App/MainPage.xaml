@@ -170,9 +170,16 @@
                            RelativePanel.AlignHorizontalCenterWithPanel="True"   
                               x:Name="ProgressRing" IsActive="True"/>
             </RelativePanel>
-            <TextBlock Grid.Row="2" Text="Now playing:"/>
-            <TextBlock Grid.Row="3" x:Name="PlayingStatusText" Text="-"/>
-            
+            <RelativePanel Grid.Row="2">
+                <TextBlock Text="Now playing:" x:Name="NowPlayingHeader"
+                           Margin="0,0,10,0"/>
+                <TextBlock x:Name="NowPlayingText" Text="-"
+                           RelativePanel.RightOf="NowPlayingHeader"/>
+                <TextBlock x:Name="NowPlayingStatusText"  
+                           RelativePanel.Below="NowPlayingHeader"/>
+
+            </RelativePanel>
+
         </Grid>
     </Border>
 </Page>

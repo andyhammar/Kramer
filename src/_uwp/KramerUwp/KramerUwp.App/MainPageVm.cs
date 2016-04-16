@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
+using Windows.Media.Playback;
 using KramerUwp.App.Api;
 
 namespace KramerUwp.App
@@ -90,6 +91,7 @@ namespace KramerUwp.App
 
             //todo play audio
             await Task.Delay(1);
+            BackgroundMediaPlayer.Current.SetUriSource(new Uri(episodeItemVm.AudioUri));
             //new MediaPlayer().SetUriSource(new Uri(episodeItemVm.AudioUri));
         }
     }

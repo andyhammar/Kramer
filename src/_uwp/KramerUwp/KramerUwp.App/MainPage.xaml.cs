@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
+using Windows.Media.Playback;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
@@ -20,6 +21,46 @@ namespace KramerUwp.App
         {
             this.InitializeComponent();
             ClearBusy();
+            var player = BackgroundMediaPlayer.Current;
+            player.AutoPlay = true;
+            player.CurrentStateChanged += Player_CurrentStateChanged;
+            player.BufferingEnded += Player_BufferingEnded;
+            player.BufferingStarted += Player_BufferingStarted;
+        }
+
+        private void Player_BufferingStarted(MediaPlayer sender, object args)
+        {
+            Debug.WriteLine("buffering started");
+            NowPlayingStatusText.Text = "buffering...";
+        }
+
+        private void Player_BufferingEnded(MediaPlayer sender, object args)
+        {
+            Debug.WriteLine("buffering ended");
+            NowPlayingStatusText.Text = "";
+        }
+
+        private void Player_CurrentStateChanged(MediaPlayer sender, object args)
+        {
+            string status;
+            switch (sender.CurrentState)
+            {
+                case MediaPlayerState.Closed:
+                    break;
+                case MediaPlayerState.Opening:
+                    break;
+                case MediaPlayerState.Buffering:
+                    break;
+                case MediaPlayerState.Playing:
+                    break;
+                case MediaPlayerState.Paused:
+                    break;
+                case MediaPlayerState.Stopped:
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+            NowPlayingStatusText.Text = status;
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
@@ -58,6 +99,7 @@ namespace KramerUwp.App
             StatusText.Text = string.Empty;
             ProgressRing.IsActive = false;
         }
+
         private void ShowError(string text)
         {
             ClearBusy();
