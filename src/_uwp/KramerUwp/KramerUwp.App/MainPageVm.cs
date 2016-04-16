@@ -32,6 +32,7 @@ namespace KramerUwp.App
 
             var jsonRoot = await GetFeedAsync(uri);
 
+            Episodes.Clear();
             foreach (var episode in jsonRoot.episodes)
             {
                 Episodes.Add(CreateItem(episode));
