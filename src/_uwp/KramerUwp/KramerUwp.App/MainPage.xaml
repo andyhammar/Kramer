@@ -113,6 +113,14 @@
             </Setter>
         </Style>
     </Page.Resources>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.Content>
+                <Grid/>
+            </CommandBar.Content>
+            <AppBarButton Icon="Refresh" Label="Refresh" Click="RefreshButton_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
     <Page.DataContext>
         <local:MainPageVm x:Name="_vm"/>
     </Page.DataContext>
@@ -151,6 +159,10 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
+            <TextBlock x:Name="StatusText"
+                       Grid.Row="1"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
         </Grid>
     </Border>
 </Page>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -23,21 +24,8 @@ namespace KramerUwp.App
 
         public async Task InitAsync()
         {
-
-            var untilDate = DateTime.Now.Date.AddDays(1);
-            var fromDate = untilDate.AddDays(-1);
-
-            //ekonomiekot
-            //var URI = "http://api.sr.se/api/v2/episodes/index?programid=178&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json";
-
-            //ekot
-            var templateUri = "http://api.sr.se/api/v2/episodes/index?programid=4540&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json";
-
-            var uri =
-                string.Format(
-                    templateUri,
-                    fromDate.ToSwedishDate(),
-                    untilDate.ToSwedishDate());
+            await Task.Delay(3000);
+            var uri = CreateUri();
 
             var jsonRoot = await GetFeedAsync(uri);
 
@@ -45,7 +33,27 @@ namespace KramerUwp.App
             {
                 Episodes.Add(CreateItem(episode));
             }
+        }
 
+
+        private static string CreateUri()
+        {
+            var untilDate = DateTime.Now.Date.AddDays(1);
+            var fromDate = untilDate.AddDays(-1);
+
+            //ekonomiekot
+            //var URI = "http://api.sr.se/api/v2/episodes/index?programid=178&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json";
+
+            //ekot
+            var templateUri =
+                "http://api.sr.se/api/v2/episodes/index?programid=4540&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json";
+
+            var uri =
+                string.Format(
+                    templateUri,
+                    fromDate.ToSwedishDate(),
+                    untilDate.ToSwedishDate());
+            return uri;
         }
 
         private async Task<RootObject> GetFeedAsync(string uri)
@@ -79,7 +87,7 @@ namespace KramerUwp.App
         {
             if (episodeItemVm == null)
                 return;
-            
+
             //todo play audio
             //new MediaPlayer().SetUriSource(new Uri(episodeItemVm.AudioUri));
         }
