@@ -125,14 +125,13 @@
         <local:MainPageVm x:Name="_vm"/>
     </Page.DataContext>
     <Border Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Grid 
-          Margin="20">
+        <Grid >
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <TextBlock Text="Ekot" FontSize="48"
-                       Margin="0,0,0,20"/>
+                       Margin="10,0,0,20"/>
             <ListBox
                 Background="White"
                 ItemsSource="{Binding Episodes}"
