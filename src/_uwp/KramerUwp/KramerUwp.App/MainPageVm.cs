@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.Media.Playback;
+using Windows.UI.ViewManagement;
 using KramerUwp.App.Api;
 using Newtonsoft.Json;
 

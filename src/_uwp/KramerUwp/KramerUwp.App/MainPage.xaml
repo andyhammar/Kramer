@@ -144,7 +144,7 @@
                         <RelativePanel>
                             <TextBlock
                                 x:Name="TimeText"
-                                Text="{Binding Time}"
+                                Text="{Binding Title}"
                                 FontSize="24"/>
                             <TextBlock 
                                 x:Name="LengthText"

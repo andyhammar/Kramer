@@ -93,7 +93,11 @@ namespace KramerUwp.App
 
         private async void _list_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            await _vm.PlayAsync(e.AddedItems.FirstOrDefault() as EpisodeItemVm);
+            var episodeItemVm = e.AddedItems.FirstOrDefault() as EpisodeItemVm;
+            if (episodeItemVm == null)
+                return;
+            await _vm.PlayAsync(episodeItemVm);
+            NowPlayingText.Text = episodeItemVm.Title;
         }
 
         private void ShowBusy(string text)
