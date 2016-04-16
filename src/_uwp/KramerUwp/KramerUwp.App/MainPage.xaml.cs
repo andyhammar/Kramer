@@ -49,7 +49,7 @@ namespace KramerUwp.App
                 case MediaPlayerState.Closed:
                     break;
                 case MediaPlayerState.Opening:
-                    status = "Opening...";
+                    status = "opening...";
                     break;
                 case MediaPlayerState.Buffering:
                     break;
