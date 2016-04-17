@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="ace0732e-78fa-48d6-bc35-4a4e1346f917" Publisher="CN=aham" Version="1.0.0.0" />
+  <Identity Name="21411AndreasHammar.EchoNews" Publisher="CN=FA18167A-309D-4036-BC20-56EAF537BC91" Version="1.1.0.0" />
   <mp:PhoneIdentity PhoneProductId="ace0732e-78fa-48d6-bc35-4a4e1346f917" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>KramerUwp.App</DisplayName>
-    <PublisherDisplayName>aham</PublisherDisplayName>
+    <DisplayName>Ekot</DisplayName>
+    <PublisherDisplayName>Andreas Hammar</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
