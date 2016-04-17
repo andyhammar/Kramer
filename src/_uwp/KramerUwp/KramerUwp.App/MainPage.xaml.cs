@@ -64,6 +64,7 @@ namespace KramerUwp.App
 
         private async void Player_CurrentStateChanged(MediaPlayer sender, object args)
         {
+            Debug.WriteLine($"Player_CurrentStateChanged: {sender.CurrentState}");
             string status = string.Empty;
             switch (sender.CurrentState)
             {
