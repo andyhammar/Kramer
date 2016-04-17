@@ -28,7 +28,11 @@ namespace KramerUwp.App
 
             var jsonRoot = await GetFeedAsync(uri);
 
-            Episodes.Clear();
+            if (Episodes.Count > 0)
+            {
+                Episodes.Clear();
+                await Task.Delay(200);
+            }
             foreach (var episode in jsonRoot.episodes)
             {
                 Episodes.Add(CreateItem(episode));
@@ -45,7 +49,7 @@ namespace KramerUwp.App
             //var URI = "http://api.sr.se/api/v2/episodes/index?programid=178&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json";
 
             //ekot
-            var templateUri =
+            const string templateUri =
                 "http://api.sr.se/api/v2/episodes/index?programid=4540&fromdate={0}&todate={1}&urltemplateid=3&audioquality=hi&pagination=false&format=json";
 
             var uri =
