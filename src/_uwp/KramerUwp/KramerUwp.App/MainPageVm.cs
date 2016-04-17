@@ -93,8 +93,9 @@ namespace KramerUwp.App
             if (episodeItemVm == null)
                 return;
 
-            BackgroundMediaPlayer.Current.Pause();
-            BackgroundMediaPlayer.Current.SetUriSource(new Uri(episodeItemVm.AudioUri));
+            var player = BackgroundMediaPlayer.Current;
+            player.Pause();
+            player.SetUriSource(new Uri(episodeItemVm.AudioUri));
             //new MediaPlayer().SetUriSource(new Uri(episodeItemVm.AudioUri));
         }
     }

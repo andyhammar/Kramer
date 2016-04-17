@@ -26,12 +26,28 @@ namespace KramerUwp.App
             var player = BackgroundMediaPlayer.Current;
             player.AutoPlay = true;
             player.CurrentStateChanged += Player_CurrentStateChanged;
+            player.MediaOpened += Player_MediaOpened;
             player.BufferingEnded += Player_BufferingEnded;
             player.BufferingStarted += Player_BufferingStarted;
             player.SystemMediaTransportControls.IsEnabled = true;
             player.SystemMediaTransportControls.IsPauseEnabled = true;
             player.SystemMediaTransportControls.IsPlayEnabled = true;
             player.SystemMediaTransportControls.ButtonPressed += SystemMediaTransportControls_ButtonPressed;
+        }
+
+        private async void Player_MediaOpened(MediaPlayer sender, object args)
+        {
+            string title = null;
+            await OnDispatcher(() => title = NowPlayingText?.Text);
+
+            if (string.IsNullOrWhiteSpace(title))
+                return;
+
+            var updater = BackgroundMediaPlayer.Current.SystemMediaTransportControls.DisplayUpdater;
+            updater.Type = MediaPlaybackType.Music;
+            var properties = updater.MusicProperties;
+            properties.Title = title;
+            updater.Update();
         }
 
         private void SystemMediaTransportControls_ButtonPressed(
@@ -46,8 +62,6 @@ namespace KramerUwp.App
             {
                 BackgroundMediaPlayer.Current.Play();
             }
-
-
         }
 
         private async void Player_BufferingStarted(MediaPlayer sender, object args)
@@ -123,7 +137,9 @@ namespace KramerUwp.App
             if (episodeItemVm == null)
                 return;
             _vm.Play(episodeItemVm);
-            NowPlayingText.Text = episodeItemVm.Title;
+            var title = episodeItemVm.Title;
+
+            NowPlayingText.Text = title;
         }
 
         private void ShowBusy(string text)
