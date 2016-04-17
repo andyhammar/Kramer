@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" 
+    RequestedTheme="Dark"
     d:DataContext="{d:DesignInstance local:MainPageVm, IsDesignTimeCreatable=True}">
     <Page.Resources>
         <Style x:Key="ListBoxItemStyle1" TargetType="ListBoxItem">
@@ -136,10 +137,9 @@
             <TextBlock Text="Ekot" FontSize="48"
                        Margin="0,0,0,20"/>
             <ListBox
-                Background="White"
                 ItemsSource="{Binding Episodes}"
                 Grid.Row="1"
-                x:Name="_list" ItemContainerStyle="{StaticResource ListBoxItemStyle1}" SelectionChanged="_list_SelectionChanged" Margin="-10,0,0,0">
+                x:Name="_list" ItemContainerStyle="{StaticResource ListBoxItemStyle1}" SelectionChanged="_list_SelectionChanged" Margin="-10,0,0,0" Background="Black">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <RelativePanel>

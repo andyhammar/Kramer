@@ -16,15 +16,14 @@ namespace KramerUwp.App
             Episodes = new ObservableCollection<EpisodeItemVm>();
             if (DesignMode.DesignModeEnabled)
             {
-                Episodes.Add(new EpisodeItemVm() { LengthInMinutes = "5", Time = "09:00" });
-                Episodes.Add(new EpisodeItemVm() { LengthInMinutes = "3", Time = "15:00" });
-                Episodes.Add(new EpisodeItemVm() { LengthInMinutes = "15", Time = "22:00" });
+                Episodes.Add(new EpisodeItemVm() { LengthInMinutes = "5", Title = "09:00" });
+                Episodes.Add(new EpisodeItemVm() { LengthInMinutes = "3", Title = "15:00" });
+                Episodes.Add(new EpisodeItemVm() { LengthInMinutes = "15", Title = "22:00" });
             }
         }
 
         public async Task InitAsync()
         {
-            await Task.Delay(3000);
             var uri = CreateUri();
 
             var jsonRoot = await GetFeedAsync(uri);
@@ -84,13 +83,12 @@ namespace KramerUwp.App
 
         public ObservableCollection<EpisodeItemVm> Episodes { get; set; }
 
-        public async Task PlayAsync(EpisodeItemVm episodeItemVm)
+        public void Play(EpisodeItemVm episodeItemVm)
         {
             if (episodeItemVm == null)
                 return;
 
-            //todo play audio
-            await Task.Delay(1);
+            BackgroundMediaPlayer.Current.Pause();
             BackgroundMediaPlayer.Current.SetUriSource(new Uri(episodeItemVm.AudioUri));
             //new MediaPlayer().SetUriSource(new Uri(episodeItemVm.AudioUri));
         }

@@ -113,7 +113,7 @@ namespace KramerUwp.App
             }
         }
 
-        private async void _list_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void _list_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (_list.SelectedIndex == -1)
                 return;
@@ -122,7 +122,7 @@ namespace KramerUwp.App
 
             if (episodeItemVm == null)
                 return;
-            await _vm.PlayAsync(episodeItemVm);
+            _vm.Play(episodeItemVm);
             NowPlayingText.Text = episodeItemVm.Title;
         }
 
