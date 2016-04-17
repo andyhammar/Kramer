@@ -23,6 +23,12 @@ namespace KramerUwp.App
                 Microsoft.ApplicationInsights.WindowsCollectors.Session);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            this.UnhandledException += App_UnhandledException;
+        }
+
+        private async void App_UnhandledException(object sender, UnhandledExceptionEventArgs e)
+        {
+            await LittleWatson.ReportException(e.Exception, null);
         }
 
         /// <summary>
@@ -30,7 +36,7 @@ namespace KramerUwp.App
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
 
 #if DEBUG
@@ -59,6 +65,8 @@ namespace KramerUwp.App
                 // Place the frame in the current Window
                 Window.Current.Content = rootFrame;
             }
+
+            await LittleWatson.CheckForPreviousException();
 
             if (rootFrame.Content == null)
             {
