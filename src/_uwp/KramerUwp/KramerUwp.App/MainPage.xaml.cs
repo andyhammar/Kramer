@@ -37,30 +37,44 @@ namespace KramerUwp.App
 
         private async void Player_MediaOpened(MediaPlayer sender, object args)
         {
-            string title = null;
-            await OnDispatcher(() => title = NowPlayingText?.Text);
+            try
+            {
+                string title = null;
+                await OnDispatcher(() => title = NowPlayingText?.Text);
 
-            if (string.IsNullOrWhiteSpace(title))
-                return;
+                if (string.IsNullOrWhiteSpace(title))
+                    return;
 
-            var updater = BackgroundMediaPlayer.Current.SystemMediaTransportControls.DisplayUpdater;
-            updater.Type = MediaPlaybackType.Music;
-            var properties = updater.MusicProperties;
-            properties.Title = title;
-            updater.Update();
+                var updater = BackgroundMediaPlayer.Current.SystemMediaTransportControls.DisplayUpdater;
+                updater.Type = MediaPlaybackType.Music;
+                var properties = updater.MusicProperties;
+                properties.Title = title;
+                updater.Update();
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e);
+            }
         }
 
         private void SystemMediaTransportControls_ButtonPressed(
             Windows.Media.SystemMediaTransportControls sender,
             Windows.Media.SystemMediaTransportControlsButtonPressedEventArgs args)
         {
-            if (args.Button == SystemMediaTransportControlsButton.Pause)
+            try
             {
-                BackgroundMediaPlayer.Current.Pause();
+                if (args.Button == SystemMediaTransportControlsButton.Pause)
+                {
+                    BackgroundMediaPlayer.Current.Pause();
+                }
+                else if (args.Button == SystemMediaTransportControlsButton.Play)
+                {
+                    BackgroundMediaPlayer.Current.Play();
+                }
             }
-            else if (args.Button == SystemMediaTransportControlsButton.Play)
+            catch (Exception e)
             {
-                BackgroundMediaPlayer.Current.Play();
+                Debug.WriteLine(e);
             }
         }
 
@@ -129,17 +143,24 @@ namespace KramerUwp.App
 
         private void _list_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (_list.SelectedIndex == -1)
-                return;
-            var episodeItemVm = e.AddedItems.FirstOrDefault() as EpisodeItemVm;
-            _list.SelectedIndex = -1;
+            try
+            {
+                if (_list.SelectedIndex == -1)
+                    return;
+                var episodeItemVm = e.AddedItems.FirstOrDefault() as EpisodeItemVm;
+                _list.SelectedIndex = -1;
 
-            if (episodeItemVm == null)
-                return;
-            _vm.Play(episodeItemVm);
-            var title = episodeItemVm.Title;
+                if (episodeItemVm == null)
+                    return;
+                _vm.Play(episodeItemVm);
+                var title = episodeItemVm.Title;
 
-            NowPlayingText.Text = title;
+                NowPlayingText.Text = title;
+            }
+            catch (Exception exception)
+            {
+                Debug.WriteLine(exception);
+            }
         }
 
         private void ShowBusy(string text)
