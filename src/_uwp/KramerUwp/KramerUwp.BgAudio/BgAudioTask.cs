@@ -12,6 +12,8 @@ namespace KramerUwp.BgAudio
 {
     public sealed class BgAudioTask : IBackgroundTask
     {
+        private BackgroundTaskDeferral _deferral;
+
         public void Run(IBackgroundTaskInstance taskInstance)
         {
             var player = BackgroundMediaPlayer.Current;
@@ -19,7 +21,19 @@ namespace KramerUwp.BgAudio
             player.SystemMediaTransportControls.IsPauseEnabled = true;
             player.SystemMediaTransportControls.IsPlayEnabled = true;
             player.SystemMediaTransportControls.ButtonPressed += SystemMediaTransportControls_ButtonPressed;
+            _deferral = taskInstance.GetDeferral();
+            taskInstance.Task.Completed += Task_Completed;
+            taskInstance.Canceled += TaskInstance_Canceled;
+        }
 
+        private void TaskInstance_Canceled(IBackgroundTaskInstance sender, BackgroundTaskCancellationReason reason)
+        {
+            _deferral.Complete();
+        }
+
+        private void Task_Completed(BackgroundTaskRegistration sender, BackgroundTaskCompletedEventArgs args)
+        {
+            _deferral.Complete();
         }
 
         private void SystemMediaTransportControls_ButtonPressed(
