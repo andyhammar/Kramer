@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
+using Windows.Foundation.Collections;
 using Windows.Media.Playback;
 using KramerUwp.App.Api;
 using Newtonsoft.Json;
@@ -96,6 +97,7 @@ namespace KramerUwp.App
             var player = BackgroundMediaPlayer.Current;
             player.Pause();
             player.SetUriSource(new Uri(episodeItemVm.AudioUri));
+            BackgroundMediaPlayer.SendMessageToBackground(new ValueSet() { { "title", episodeItemVm.Title } });
             //new MediaPlayer().SetUriSource(new Uri(episodeItemVm.AudioUri));
         }
     }

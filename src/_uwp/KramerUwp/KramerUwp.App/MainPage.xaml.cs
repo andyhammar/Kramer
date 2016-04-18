@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.Media;
 using Windows.Media.Playback;
+using Windows.Storage;
 using Windows.UI.Core;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
@@ -42,11 +43,6 @@ namespace KramerUwp.App
                 if (string.IsNullOrWhiteSpace(title))
                     return;
 
-                var updater = BackgroundMediaPlayer.Current.SystemMediaTransportControls.DisplayUpdater;
-                updater.Type = MediaPlaybackType.Music;
-                var properties = updater.MusicProperties;
-                properties.Title = title;
-                updater.Update();
             }
             catch (Exception e)
             {
@@ -113,7 +109,9 @@ namespace KramerUwp.App
             }
             catch (Exception exception)
             {
+                ApplicationData.Current.LocalSettings.Values["lastError"] = exception;
                 ShowError("Error getting episodes, please try again.");
+
                 Debug.WriteLine(exception);
                 //await new MessageDialog(exception.StackTrace).ShowAsync();
             }
@@ -162,6 +160,22 @@ namespace KramerUwp.App
         private async void RefreshButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
             await TryGetEpisodesAsync();
+        }
+
+        private async void TextBlock_Tapped(object sender, Windows.UI.Xaml.Input.TappedRoutedEventArgs e)
+        {
+            var lastError = ApplicationData.Current.LocalSettings.Values["lastError"] as string;
+            if (string.IsNullOrEmpty(lastError))
+                return;
+
+            await new MessageDialog(lastError, "Last swallowed error").ShowAsync();
+            //var textBlock = new TextBlock();
+            //var scroller = new ScrollViewer();
+            //scroller.Content = textBlock;
+            //textBlock.Text = lastError;
+            //Grid.SetRowSpan(scroller, 5);
+
+            //_grid.Children.Add(textBlock);
         }
     }
 }

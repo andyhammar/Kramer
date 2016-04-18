@@ -127,7 +127,7 @@
     </Page.DataContext>
     <Border Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" 
             >
-        <Grid Margin="10,0,0,0" >
+        <Grid Margin="10,0,0,0" x:Name="_grid">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
@@ -135,7 +135,7 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <TextBlock Text="Ekot" FontSize="48"
-                       Margin="0,0,0,20"/>
+                       Margin="0,0,0,20" Tapped="TextBlock_Tapped"/>
             <ListBox
                 ItemsSource="{Binding Episodes}"
                 Grid.Row="1"

@@ -21,9 +21,23 @@ namespace KramerUwp.BgAudio
             player.SystemMediaTransportControls.IsPauseEnabled = true;
             player.SystemMediaTransportControls.IsPlayEnabled = true;
             player.SystemMediaTransportControls.ButtonPressed += SystemMediaTransportControls_ButtonPressed;
+            BackgroundMediaPlayer.MessageReceivedFromForeground += BackgroundMediaPlayer_MessageReceivedFromForeground;
             _deferral = taskInstance.GetDeferral();
             taskInstance.Task.Completed += Task_Completed;
             taskInstance.Canceled += TaskInstance_Canceled;
+        }
+
+        private void BackgroundMediaPlayer_MessageReceivedFromForeground(object sender, 
+            MediaPlayerDataReceivedEventArgs e)
+        {
+            var title = e.Data["title"] as string;
+            if (title == null)
+                return;
+            var updater = BackgroundMediaPlayer.Current.SystemMediaTransportControls.DisplayUpdater;
+            updater.Type = MediaPlaybackType.Music;
+            var properties = updater.MusicProperties;
+            properties.Title = $"Ekot {title}";
+            updater.Update();
         }
 
         private void TaskInstance_Canceled(IBackgroundTaskInstance sender, BackgroundTaskCancellationReason reason)
