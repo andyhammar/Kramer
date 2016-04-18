@@ -26,9 +26,9 @@ namespace KramerUwp.App
             this.UnhandledException += App_UnhandledException;
         }
 
-        private async void App_UnhandledException(object sender, UnhandledExceptionEventArgs e)
+        private void App_UnhandledException(object sender, UnhandledExceptionEventArgs e)
         {
-            await LittleWatson.ReportException(e.Exception, null);
+            LittleWatson.ReportException(e.Exception, string.Empty);
         }
 
         /// <summary>
@@ -66,7 +66,7 @@ namespace KramerUwp.App
                 Window.Current.Content = rootFrame;
             }
 
-            await LittleWatson.CheckForPreviousException();
+            await LittleWatson.CheckForPreviousExceptionAsync();
 
             if (rootFrame.Content == null)
             {

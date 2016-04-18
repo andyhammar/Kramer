@@ -183,7 +183,6 @@ namespace KramerUwp.App
 
         private async void RefreshButton_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            throw new UnauthorizedAccessException("testing");
             await TryGetEpisodesAsync();
         }
     }

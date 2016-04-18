@@ -26,14 +26,11 @@ namespace KramerUwp.App
             _folder = ApplicationData.Current.LocalFolder;
         }
 
-        internal static async Task ReportException(Exception ex, string extra)
+        internal static void ReportException(Exception ex, string extra)
         {
             try
             {
-                var file = await _folder.CreateFileAsync(FILENAME, CreationCollisionOption.OpenIfExists);
-
-                var text = extra + Environment.NewLine + ex.Message + Environment.NewLine + ex.StackTrace;
-                await FileIO.WriteTextAsync(file, text);
+                ApplicationData.Current.LocalSettings.Values["error"] = extra + Environment.NewLine + ex;
             }
             catch (Exception e)
             {
@@ -41,17 +38,13 @@ namespace KramerUwp.App
             }
         }
 
-        internal static async Task CheckForPreviousException()
+        internal static async Task CheckForPreviousExceptionAsync()
         {
             try
             {
-
-                var file = await _folder.GetFileAsync(FILENAME);
-
-                if (file == null)
+                var error = ApplicationData.Current.LocalSettings.Values["error"] as string;
+                if (error == null)
                     return;
-
-                var error = await FileIO.ReadTextAsync(file);
 
                 var messageDialog = new MessageDialog(
                     "A problem occurred the last time you ran this application. Would you like to send an email to report it?",
@@ -61,29 +54,6 @@ namespace KramerUwp.App
                 messageDialog.Commands.Add(
                     new UICommand("No"));
                 await messageDialog.ShowAsync();
-
-                await file.DeleteAsync();
-
-
-                //if (contents != null)
-                //{
-                //    //if (MessageBox.Show(
-                //    //    "A problem occurred the last time you ran this application. Would you like to send an email to report it?",
-                //    //    "Problem Report",
-                //    //    MessageBoxButton.OKCancel) == MessageBoxResult.OK)
-                //    if (MessageBox.Show(
-                //        "Ett fel uppstod vid senaste körningen, vill du skicka en felrapport till utvecklaren?",
-                //        "Skicka felrapport",
-                //        MessageBoxButton.OKCancel) == MessageBoxResult.OK)
-                //    {
-                //        var email = new EmailComposeTask();
-                //        email.To = EMAIL_TO;
-                //        email.Subject = EMAIL_SUBJECT;
-                //        email.Body = contents;
-                //        SafeDeleteFile(IsolatedStorageFile.GetUserStoreForApplication()); // line added 1/15/2011
-                //        email.Show();
-                //    }
-                //}
             }
             catch (Exception e)
             {
@@ -91,7 +61,7 @@ namespace KramerUwp.App
             }
             finally
             {
-                //SafeDeleteFile(IsolatedStorageFile.GetUserStoreForApplication());
+                ApplicationData.Current.LocalSettings.Values["error"] = null;
             }
         }
 
@@ -102,17 +72,6 @@ namespace KramerUwp.App
             email.Subject = EMAIL_SUBJECT;
             await EmailManager.ShowComposeNewEmailAsync(email);
         }
-
-        //private static void SafeDeleteFile(IsolatedStorageFile store)
-        //{
-        //    try
-        //    {
-        //        store.DeleteFile(FILENAME);
-        //    }
-        //    catch (Exception)
-        //    {
-        //    }
-        //}
     }
 }
 
