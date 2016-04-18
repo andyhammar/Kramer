@@ -6,6 +6,7 @@ using Windows.ApplicationModel;
 using Windows.Media;
 using Windows.Media.Playback;
 using Windows.UI.Core;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
@@ -29,10 +30,6 @@ namespace KramerUwp.App
             player.MediaOpened += Player_MediaOpened;
             player.BufferingEnded += Player_BufferingEnded;
             player.BufferingStarted += Player_BufferingStarted;
-            player.SystemMediaTransportControls.IsEnabled = true;
-            player.SystemMediaTransportControls.IsPauseEnabled = true;
-            player.SystemMediaTransportControls.IsPlayEnabled = true;
-            player.SystemMediaTransportControls.ButtonPressed += SystemMediaTransportControls_ButtonPressed;
         }
 
         private async void Player_MediaOpened(MediaPlayer sender, object args)
@@ -57,26 +54,6 @@ namespace KramerUwp.App
             }
         }
 
-        private void SystemMediaTransportControls_ButtonPressed(
-            Windows.Media.SystemMediaTransportControls sender,
-            Windows.Media.SystemMediaTransportControlsButtonPressedEventArgs args)
-        {
-            try
-            {
-                if (args.Button == SystemMediaTransportControlsButton.Pause)
-                {
-                    BackgroundMediaPlayer.Current.Pause();
-                }
-                else if (args.Button == SystemMediaTransportControlsButton.Play)
-                {
-                    BackgroundMediaPlayer.Current.Play();
-                }
-            }
-            catch (Exception e)
-            {
-                Debug.WriteLine(e);
-            }
-        }
 
         private async void Player_BufferingStarted(MediaPlayer sender, object args)
         {
@@ -138,6 +115,7 @@ namespace KramerUwp.App
             {
                 ShowError("Error getting episodes, please try again.");
                 Debug.WriteLine(exception);
+                //await new MessageDialog(exception.StackTrace).ShowAsync();
             }
         }
 
