@@ -44,7 +44,7 @@ namespace KramerUwp.App
         {
             try
             {
-                var file = await Path.GetKnownFolders.DocumentsLibrary.GetFileAsync(Filename);
+                var file = await StorageFile.GetFileFromPathAsync(_filePath);
 
                 if (file == null)
                     return;
