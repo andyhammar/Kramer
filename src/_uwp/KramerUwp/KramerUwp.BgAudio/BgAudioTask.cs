@@ -23,8 +23,8 @@ namespace KramerUwp.BgAudio
             player.SystemMediaTransportControls.ButtonPressed += SystemMediaTransportControls_ButtonPressed;
             BackgroundMediaPlayer.MessageReceivedFromForeground += BackgroundMediaPlayer_MessageReceivedFromForeground;
             _deferral = taskInstance.GetDeferral();
-            taskInstance.Task.Completed += Task_Completed;
-            taskInstance.Canceled += TaskInstance_Canceled;
+            //taskInstance.Task.Completed += Task_Completed;
+            //taskInstance.Canceled += TaskInstance_Canceled;
         }
 
         private void BackgroundMediaPlayer_MessageReceivedFromForeground(object sender, 
@@ -40,15 +40,15 @@ namespace KramerUwp.BgAudio
             updater.Update();
         }
 
-        private void TaskInstance_Canceled(IBackgroundTaskInstance sender, BackgroundTaskCancellationReason reason)
-        {
-            _deferral.Complete();
-        }
+        //private void TaskInstance_Canceled(IBackgroundTaskInstance sender, BackgroundTaskCancellationReason reason)
+        //{
+        //    _deferral.Complete();
+        //}
 
-        private void Task_Completed(BackgroundTaskRegistration sender, BackgroundTaskCompletedEventArgs args)
-        {
-            _deferral.Complete();
-        }
+        //private void Task_Completed(BackgroundTaskRegistration sender, BackgroundTaskCompletedEventArgs args)
+        //{
+        //    _deferral.Complete();
+        //}
 
         private void SystemMediaTransportControls_ButtonPressed(
     Windows.Media.SystemMediaTransportControls sender,
