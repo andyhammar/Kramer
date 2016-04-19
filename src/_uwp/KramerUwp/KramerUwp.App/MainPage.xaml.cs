@@ -109,12 +109,17 @@ namespace KramerUwp.App
             }
             catch (Exception exception)
             {
-                ApplicationData.Current.LocalSettings.Values["lastError"] = exception;
+                SetLastError(exception.ToString());
                 ShowError("Error getting episodes, please try again.");
 
                 Debug.WriteLine(exception);
                 //await new MessageDialog(exception.StackTrace).ShowAsync();
             }
+        }
+
+        private static void SetLastError(string error)
+        {
+            ApplicationData.Current.LocalSettings.Values["lastError"] = error;
         }
 
         private void _list_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -127,7 +132,10 @@ namespace KramerUwp.App
                 _list.SelectedIndex = -1;
 
                 if (episodeItemVm == null)
+                {
+                    SetLastError($"Could not play episode, it's null. Nbr added items: {e.AddedItems.Count}. First: {e.AddedItems.FirstOrDefault()}.");
                     return;
+                }
                 _vm.Play(episodeItemVm);
                 var title = episodeItemVm.Title;
 
