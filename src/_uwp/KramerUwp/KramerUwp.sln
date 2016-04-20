@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KramerUwp.App", "KramerUwp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KramerUwp.BgAudio", "KramerUwp.BgAudio\KramerUwp.BgAudio.csproj", "{430185B3-C70B-4232-9E88-39A00D6C9C5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KramerUwp.Wp81App", "KramerUwp.Wp81App\KramerUwp.Wp81App.csproj", "{0199F900-4740-4657-B068-D59FC321CACE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,30 @@ Global
 		{430185B3-C70B-4232-9E88-39A00D6C9C5B}.Release|x64.Build.0 = Release|x64
 		{430185B3-C70B-4232-9E88-39A00D6C9C5B}.Release|x86.ActiveCfg = Release|x86
 		{430185B3-C70B-4232-9E88-39A00D6C9C5B}.Release|x86.Build.0 = Release|x86
+		{0199F900-4740-4657-B068-D59FC321CACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0199F900-4740-4657-B068-D59FC321CACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0199F900-4740-4657-B068-D59FC321CACE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0199F900-4740-4657-B068-D59FC321CACE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0199F900-4740-4657-B068-D59FC321CACE}.Debug|ARM.Build.0 = Debug|ARM
+		{0199F900-4740-4657-B068-D59FC321CACE}.Debug|ARM.Deploy.0 = Debug|ARM
+		{0199F900-4740-4657-B068-D59FC321CACE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0199F900-4740-4657-B068-D59FC321CACE}.Debug|x64.Build.0 = Debug|Any CPU
+		{0199F900-4740-4657-B068-D59FC321CACE}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{0199F900-4740-4657-B068-D59FC321CACE}.Debug|x86.ActiveCfg = Debug|x86
+		{0199F900-4740-4657-B068-D59FC321CACE}.Debug|x86.Build.0 = Debug|x86
+		{0199F900-4740-4657-B068-D59FC321CACE}.Debug|x86.Deploy.0 = Debug|x86
+		{0199F900-4740-4657-B068-D59FC321CACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0199F900-4740-4657-B068-D59FC321CACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0199F900-4740-4657-B068-D59FC321CACE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0199F900-4740-4657-B068-D59FC321CACE}.Release|ARM.ActiveCfg = Release|ARM
+		{0199F900-4740-4657-B068-D59FC321CACE}.Release|ARM.Build.0 = Release|ARM
+		{0199F900-4740-4657-B068-D59FC321CACE}.Release|ARM.Deploy.0 = Release|ARM
+		{0199F900-4740-4657-B068-D59FC321CACE}.Release|x64.ActiveCfg = Release|Any CPU
+		{0199F900-4740-4657-B068-D59FC321CACE}.Release|x64.Build.0 = Release|Any CPU
+		{0199F900-4740-4657-B068-D59FC321CACE}.Release|x64.Deploy.0 = Release|Any CPU
+		{0199F900-4740-4657-B068-D59FC321CACE}.Release|x86.ActiveCfg = Release|x86
+		{0199F900-4740-4657-B068-D59FC321CACE}.Release|x86.Build.0 = Release|x86
+		{0199F900-4740-4657-B068-D59FC321CACE}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
